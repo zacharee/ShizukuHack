@@ -9,24 +9,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b77f5d88-1f6d-4971-98f0-352c54443a55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/manager/src/main/jni/mstring.cpp" afterDir="false" />
+    <list default="true" id="b77f5d88-1f6d-4971-98f0-352c54443a55" name="Changes" comment="Priv esc hack">
       <change beforePath="$PROJECT_DIR$/api" beforeDir="false" afterPath="$PROJECT_DIR$/api" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/api/src/main/java/rikka/shizuku/Shizuku.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/api/src/main/java/rikka/shizuku/Shizuku.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/api/src/main/java/rikka/shizuku/ShizukuBinderWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/api/src/main/java/rikka/shizuku/ShizukuBinderWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/manager/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/src/main/java/moe/shizuku/manager/Manifest.java" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/java/moe/shizuku/manager/Manifest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/src/main/java/moe/shizuku/manager/home/ServerStatusViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/java/moe/shizuku/manager/home/ServerStatusViewHolder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/src/main/java/moe/shizuku/manager/starter/Starter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/java/moe/shizuku/manager/starter/Starter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/src/main/java/moe/shizuku/manager/starter/StarterActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/java/moe/shizuku/manager/starter/StarterActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/src/main/jni/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/jni/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/src/main/jni/starter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/jni/starter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/rikka/shizuku/server/ServerConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/rikka/shizuku/server/ServerConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/rikka/shizuku/server/ShizukuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/rikka/shizuku/server/ShizukuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/rikka/shizuku/server/api/IContentProviderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/rikka/shizuku/server/api/IContentProviderUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/src/main/java/moe/shizuku/starter/ServiceStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/java/moe/shizuku/starter/ServiceStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/src/main/java/moe/shizuku/starter/util/IContentProviderCompat.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/java/moe/shizuku/starter/util/IContentProviderCompat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -203,5 +190,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Priv esc hack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Priv esc hack" />
   </component>
 </project>
