@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="home_app_management_authorized_apps_count">
+        <item quantity="other">承認された %d 個のアプリケーション</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d 件の新しい通知</item>
+    <item quantity="other">%d 件の新しい通知</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ホームに戻る"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"前に戻る"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完了"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"OFF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ON"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"検索…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="about_view_source_code">%sでソースコードを見る</string>
+    <string name="action_about">このアプリについて</string>
+    <string name="action_stop">Shizukuを停止する</string>
+    <string name="adb_error_key_store">ワイヤレスデバッグ用のキーを生成できません。
+\nこれは、お使いのデバイスのキーストアの仕組みが壊れているためと思われます。</string>
+    <string name="adb_pair_required">まずはペアリングの手順を行ってください。</string>
+    <string name="adb_pairing">ペアリング</string>
+    <string name="adb_pairing_requires_multi_window">最初に分割画面（マルチウィンドウ）モードに入ってください。</string>
+    <string name="adb_pairing_requires_multi_window_reason">システムではペアリングダイアログが常に表示されている必要があり、このアプリとシステムダイアログを同時に表示させるには、分割画面を使用するしかありません。</string>
+    <string name="adb_pairing_tutorial_content_enter_pairing_code">通知にコードを入力してペアリングします。</string>
+    <string name="adb_pairing_tutorial_content_finish">Shizukuに戻り、スタートします。</string>
+    <string name="adb_pairing_tutorial_content_left_is_clickable">なお、「ワイヤレスデバッグ」オプションの左側はクリック可能で、タップすると新しいページが表示されます。右側のスイッチだけをオンにするのは誤りです。</string>
+    <string name="adb_pairing_tutorial_content_miui">MIUIユーザーはシステムの設定から「通知」→「通知のシェード」から通知スタイルを「Android」に変更する必要がある場合があります。</string>
+    <string name="adb_pairing_tutorial_content_miui_2">場合によっては、通知からペアリングコードを入力できないことがあります。</string>
+    <string name="adb_pairing_tutorial_content_network">Shizukuはローカルネットワークにアクセスする必要があります。ネットワーク権限で管理されています。</string>
+    <string name="adb_pairing_tutorial_content_network_limation_not_foreground">一部のシステム（MIUIなど）では、アプリが標準でフォアグラウンドサービスを使用していても、アプリが表示されていないときはネットワークにアクセスすることを許可しないようになっています。そのようなシステムでは、Shizukuのバッテリー最適化機能を無効にしてください。</string>
+    <string name="adb_pairing_tutorial_content_notification">Shizukuからの通知でペアリングが完了します。</string>
+    <string name="adb_pairing_tutorial_content_notification_blocked">ペアリング手順はShizukuからの通知を操作する必要があります。Shizukuからの通知を許可してください。</string>
+    <string name="adb_pairing_tutorial_content_steps">「開発者向けオプション」>「ワイヤレスデバック」を選択し、ペア設定コードによるデバイスのペア設定をタップすると、6桁のコードが表示されます。</string>
+    <string name="adb_pairing_tutorial_title">お使いのデバイスとShizukuをペアリングする</string>
+    <string name="app_management_dialog_adb_is_limited_message">端末の製造元がadbの権限を制限している可能性が高いです。&lt;p> &lt;b>&lt;a href=\"%1$s\">このドキュメント&lt;/a>&lt;/b>の中に、あなたのシステムに合った解決策があるかもしれません。</string>
+    <string name="app_management_dialog_adb_is_limited_title">adbの権限が制限されています</string>
+    <string name="app_management_item_summary_requires_root">* Shizukuはrootで実行する必要があります</string>
+    <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
+    <string name="cannot_connect_port">ワイヤレスデバッグサービスに接続することができません。</string>
+    <string name="character_counter_content_description">入力済み文字数: %1$d/%2$d</string>
+    <string name="character_counter_overflowed_content_description">文字数制限を超えています（%1$d/%2$d 文字）</string>
+    <string name="clear_text_end_icon_content_description">テキストを消去</string>
+    <string msgid="6083905920877235314" name="copy">"コピー"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"リンクをクリップボードにコピーしました"</string>
+    <string name="dark_theme">暗いテーマ</string>
+    <string name="development_settings">開発者向けオプション</string>
+    <string name="dialog_adb_discovery">ワイヤレスデバッグサービスの検索</string>
+    <string name="dialog_adb_discovery_message">「開発者向けオプション」で「ワイヤレスデバッグ」を有効にしてください。ネットワークが変更されると、「ワイヤレスデバッグ」は自動的に無効になります。
+\n
+\n注意:「開発者向けオプション」や「USBデバッグ」を無効にしないでください。無効にすると、Shizukuが停止してしまいます。</string>
+    <string name="dialog_adb_invalid_port">ポートは1から65535までの整数です。</string>
+    <string name="dialog_adb_pairing_discovery">ペアリングサービスの検索</string>
+    <string name="dialog_adb_pairing_message">以下の手順でペアリングを開始してください。「開発者向けオプション」＞「ワイヤレスデバッグ」＞「ペア設定コードによるデバイスのペアの設定」を選択します。
+\n
+\nペアリング処理が開始されると、ペアリングコードの入力が可能になります。</string>
+    <string name="dialog_adb_pairing_paring_code">ペアリングコード</string>
+    <string name="dialog_adb_pairing_title">デバイスとのペアリング</string>
+    <string name="dialog_adb_port">ポート</string>
+    <string name="dialog_cannot_open_browser_title">ブラウザが起動することができません</string>
+    <string name="dialog_legacy_not_support_message">古いバージョンのShizukuは2019年3月より非推奨となりました。また、古いバージョンのShizukuは新しいAndroidシステムでは動作しません。&lt;p>&lt;b>%1$s&lt;/b>の開発者にアップデートを依頼してください。</string>
+    <string name="dialog_legacy_not_support_title">%1$s は最新の Shizuku をサポートしていません</string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">Shizukuを開く</string>
+    <string name="dialog_requesting_legacy_message">&lt;b>%1$s&lt;/b>は最新のShizukuをサポートしていますが、古いバージョンのShizukuを要求しています。これは、Shizukuが実行されていない可能性があります。Shizukuアプリで確認してください。&lt;p>古いバージョンのShizukuは2019年3月から非推奨となっています。</string>
+    <string name="dialog_requesting_legacy_title">%1$s は古いバージョンのShizukuを要求しています</string>
+    <string name="dialog_stop_message">Shizukuのサービスが停止します。</string>
+    <string name="dialog_wireless_adb_not_enabled">ワイヤレスデバッグが有効になっていません。
+\nなお、Android 11以前のバージョンでは、ワイヤレスデバッグを有効化するためには、コンピューターの接続が必要です。</string>
+    <string name="error_icon_content_description">エラー</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"詳細設定"</string>
+    <string name="exposed_dropdown_menu_content_description">プルダウン メニューを表示</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"リンクをコピー"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ブラウザで開く"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"リンクの共有"</string>
+    <string name="grant_dialog_button_allow_always">常に許可</string>
+    <string name="grant_dialog_button_deny">許可しない</string>
+    <string name="home_adb_button_view_command">コマンドを表示する</string>
+    <string name="home_adb_button_view_help">ヘルプ</string>
+    <string name="home_adb_description">root権限を持たないデバイスの場合、adbを使ってShizukuを起動する必要があります（コンピュータへの接続が必要）。この作業は、端末を再起動するたびに繰り返す必要があります。<b><a href="%1$s">ヘルプをお読みください</a></b>。</string>
+    <string name="home_adb_dialog_view_command_button_send">送信</string>
+    <string name="home_adb_dialog_view_command_copy_button">コピー</string>
+    <string name="home_adb_dialog_view_command_message">&lt;font face=monospace>%1$s&lt;/font>&lt;br>&lt;br>* 他にもいくつか注意点がありますので、まずはヘルプを読んで確認してください。</string>
+    <string name="home_adb_is_limited_description">お使いの端末製造元は adb 権限を制限しており､ Shizuku を使用するアプリは正しく動作しません。
+\n
+\n通常､ この制限は「開発者向けオプション」のいくつかの項目を調整することで解除できます。これを行う方法の詳細については､ ヘルプをお読みください。
+\n
+\n操作を有効にするために､ Shizukuを再起動する必要がある場合があります。</string>
+    <string name="home_adb_is_limited_title">もう一段階行う必要がある</string>
+    <string name="home_adb_title">コンピュータに接続して開始する</string>
+    <string name="home_app_management_empty">Shizukuを権限をリクエストしたアプリはここに表示されます。</string>
+    <string name="home_app_management_title">アプリケーション管理</string>
+    <string name="home_app_management_view_authorized_apps">タップで許可されたアプリを管理</string>
+    <string name="home_learn_more_description">Shizukuを使った開発方法、Shizukuを使ったアプリの入手方法について学ぶことができます</string>
+    <string name="home_learn_more_title">Shizukuについて学ぶ</string>
+    <string name="home_root_button_restart">再起動</string>
+    <string name="home_root_button_start">開始</string>
+    <string name="home_root_description">また、起動時にShizukuを自動的に起動することもできます。もし、起動しない場合は、システムやサードパーティのツールがShizukuを制限していないか確認してください。&lt;br>%sを参照することができます。</string>
+    <string name="home_root_description_sui">Magiskをお使いの方は、%1$sをお試しください。rootユーザにとっては、最終的にShizukuを置き換えることになるでしょう。なお、%2$sを使用するには、既存のアプリケーションを少し変更する必要があります。</string>
+    <string name="home_root_title">開始(Root化された端末の場合のみ)</string>
+    <string name="home_status_service_is_running">%1$s は実行中</string>
+    <string name="home_status_service_not_running">%1$s は停止中</string>
+    <string name="home_status_service_version">Version %2$s, %1$s</string>
+    <string name="home_status_service_version_update">バージョン %2$s, %1$s&lt;br>バージョン %3$s にアップデートするには、再度起動してください</string>
+    <string name="home_terminal_description">Shizukuを介して、好きなターミナルアプリでコマンドを実行する</string>
+    <string name="home_terminal_title">ターミナルアプリで「Shizuku」を利用する</string>
+    <string name="home_wireless_adb_description">Android 11以上では、ワイヤレスデバッグを有効にして、コンピュータに接続することなく、デバイスから直接Shizukuを起動することができます。&lt;p>詳しくはガイドをご覧ください。</string>
+    <string name="home_wireless_adb_description_pre_11">Android 11以前では、ワイヤレスデバッグを有効にするためにパソコンとの接続が必要です。</string>
+    <string name="home_wireless_adb_title">ワイヤレスデバッグで開始</string>
+    <string name="home_wireless_adb_view_guide_button">ガイド</string>
+    <string name="icon_content_description">ダイアログ アイコン</string>
+    <string name="item_view_role_description">タブ</string>
+    <string name="material_clock_toggle_content_description">午前または午後を選択</string>
+    <string name="material_hour_selection">時刻を選択してください</string>
+    <string name="material_hour_suffix">%1$s時</string>
+    <string name="material_minute_selection">分を選択</string>
+    <string name="material_minute_suffix">%1$s分</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">時刻を時計で入力するモードに切り替えます。</string>
+    <string name="material_timepicker_hour">時間</string>
+    <string name="material_timepicker_minute">分</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">時間を選択</string>
+    <string name="material_timepicker_text_input_mode_description">時刻をテキストで入力するモードに切り替えます。</string>
+    <string name="mtrl_badge_numberless_content_description">新しい通知</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s を削除します</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d 件以上の新しい通知</string>
+    <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
+    <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
+    <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_cancel">キャンセル</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">日付を選択してください</string>
+    <string name="mtrl_picker_date_header_unselected">選択した日付</string>
+    <string name="mtrl_picker_day_of_week_column_header">曜日の列: %1$s</string>
+    <string name="mtrl_picker_invalid_format">形式が無効です。</string>
+    <string name="mtrl_picker_invalid_format_example">例: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用: %1$s</string>
+    <string name="mtrl_picker_invalid_range">範囲が無効です。</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s 年に移動</string>
+    <string name="mtrl_picker_out_of_range">範囲外: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">開始日～%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s～終了日</string>
+    <string name="mtrl_picker_range_header_selected">%1$s～%2$s</string>
+    <string name="mtrl_picker_range_header_title">期間を選択してください</string>
+    <string name="mtrl_picker_range_header_unselected">開始日～終了日</string>
+    <string name="mtrl_picker_save">保存</string>
+    <string name="mtrl_picker_text_input_date_hint">日付</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">終了日</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">開始日</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">カレンダー入力モードに切り替え</string>
+    <string name="mtrl_picker_toggle_to_day_selection">タップすると、日の選択に切り替わります</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">テキスト入力モードに切り替え</string>
+    <string name="mtrl_picker_toggle_to_year_selection">タップすると、年の選択に切り替わります</string>
+    <string name="mtrl_timepicker_cancel">キャンセル</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string msgid="6573031135582639649" name="not_set">"未設定"</string>
+    <string name="notification_adb_pairing_failed_title">ペアリングに失敗しました</string>
+    <string name="notification_adb_pairing_input_paring_code">ペアリングコードを入力</string>
+    <string name="notification_adb_pairing_retry">再試行</string>
+    <string name="notification_adb_pairing_searching_for_service_title">ペアリングサービスを探しています</string>
+    <string name="notification_adb_pairing_service_found_title">ペアリングサービスを見つけました</string>
+    <string name="notification_adb_pairing_stop_searching">探すことを停止しています</string>
+    <string name="notification_adb_pairing_succeed_text">あなたはShizukuサービスをスタートさせることができます。</string>
+    <string name="notification_adb_pairing_succeed_title">ペアリングしました</string>
+    <string name="notification_adb_pairing_working_title">ペアリング中</string>
+    <string name="notification_channel_adb_pairing">ワイヤレスデバックペアリング</string>
+    <string name="notification_channel_service_status">サービス開始状況</string>
+    <string name="notification_service_start_failed">Shizukuを開始することができませんでした。</string>
+    <string name="notification_service_start_no_root">root権限の要求に失敗しました。</string>
+    <string name="notification_service_starting">Shizukuを開始しています…</string>
+    <string name="notification_settings">通知オプション</string>
+    <string name="notification_working">実行中…</string>
+    <string name="paring_code_is_wrong">ペアリングコードが間違っています。</string>
+    <string name="password_toggle_content_description">パスワードを表示</string>
+    <string name="permission_description">アプリでShizukuの使用を許可する。</string>
+    <string name="permission_label">アクセス Shizuku</string>
+    <string name="permission_warning_template">&lt;b>%1$s&lt;/b> に「%2$s」を許可しますか？</string>
+    <string msgid="6685851473431805375" name="preference_copied">"「<ns1:g id="SUMMARY">%1$s</ns1:g>」をクリップボードにコピーしました。"</string>
+    <string name="rish_description">%1$sを使えば、任意のターミナルアプリで、Shizukuが実行するシェルに接続し、対話することができます。&lt;p>詳しい使い方については、%1$sをタップするとドキュメントが表示されます。</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"検索"</string>
+    <string name="settings_black_night_theme">Black night テーマ</string>
+    <string name="settings_black_night_theme_summary">ナイトモードが有効な場合、黒色のテーマを使用する</string>
+    <string name="settings_language">言語</string>
+    <string name="settings_start_on_boot">起動時にスタート（要root)</string>
+    <string name="settings_start_on_boot_summary">root化された端末では、起動時に自動的にShizukuを起動することができます</string>
+    <string name="settings_startup">スタートアップ</string>
+    <string name="settings_title">設定</string>
+    <string name="settings_translation">翻訳作業に参加</string>
+    <string name="settings_translation_contributors">翻訳協力者</string>
+    <string name="settings_translation_summary">%sをあなたの言語に翻訳するのを手伝ってください</string>
+    <string name="settings_use_system_color">システムテーマカラー</string>
+    <string name="settings_user_interface">外観</string>
+    <string name="start_with_root_failed">root権限が付与されていないか、端末がroot化されていないため、サービスを開始できません。</string>
+    <string name="starter">起動</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>、<ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="terminal_export_files">ファイルのエクスポート</string>
+    <string name="terminal_tutorial_1">まず、ファイルを任意の場所にエクスポートします。%1$sと%2$sの2つのファイルがあります。</string>
+    <string name="terminal_tutorial_1_description">選択したフォルダー内に同名のファイルがある場合は、そのファイルは削除されます。
+\n
+\nエクスポート機能には、SAF（Storage Access Framework）が使用されています。MIUIではSAFの機能が壊れることが報告されています。MIUIをお使いの方は、Shizukuのapkからファイルを抽出するか、GitHubからダウンロードする必要があるかもしれません。</string>
+    <string name="terminal_tutorial_2">その後、任意のテキストエディタで%1$sを開いて編集します。</string>
+    <string name="terminal_tutorial_2_description">例えば、%1$sでShizukuを使いたい場合は、%2$sを%3$sに置き換えてください（%4$sは%1$sのパッケージ名です）。</string>
+    <string name="terminal_tutorial_3">最後に、ファイルをターミナルアプリがアクセスできる場所に移動させると、%1$sを使ってShizukuでコマンドを実行できるようになります。</string>
+    <string name="terminal_tutorial_3_description">ヒント: %1$s に実行権限を与え、それを %2$s に追加すると、%1$s を直接使用できるようになります。</string>
+    <string name="toast_copied_to_clipboard">%s
+\nはクリップボードにコピーされました。</string>
+    <string name="toast_copied_to_clipboard_with_text">&lt;b>%s&lt;/b> はクリップボードにコピーされました。</string>
+    <string name="translation_contributors">MES-mitutti</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"OFF"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ON"</string>
+</resources>

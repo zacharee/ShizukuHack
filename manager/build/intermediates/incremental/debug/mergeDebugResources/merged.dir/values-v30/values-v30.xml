@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Material3.Dark.Rikka" parent="Base.V30.Material3.Dark.Rikka"/>
+    <style name="Base.Material3.Light.Rikka" parent="Base.V30.Material3.Light.Rikka"/>
+    <style name="Base.V30.Material3.Dark.Rikka" parent="Base.V29.Material3.Dark.Rikka">
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+    <style name="Base.V30.Material3.Light.Rikka" parent="Base.V29.Material3.Light.Rikka">
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+</resources>

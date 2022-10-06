@@ -1,0 +1,8 @@
+rikka.shizuku.cmd.shell-pngs-0 E:\StudioProjects\Shizuku\shell\build\generated\res\pngs\debug
+rikka.shizuku.cmd.shell-resValues-1 E:\StudioProjects\Shizuku\shell\build\generated\res\resValues\debug
+rikka.shizuku.cmd.shell-rs-2 E:\StudioProjects\Shizuku\shell\build\generated\res\rs\debug
+rikka.shizuku.cmd.shell-mergeDebugResources-3 E:\StudioProjects\Shizuku\shell\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+rikka.shizuku.cmd.shell-mergeDebugResources-4 E:\StudioProjects\Shizuku\shell\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+rikka.shizuku.cmd.shell-merged_res-5 E:\StudioProjects\Shizuku\shell\build\intermediates\merged_res\debug
+rikka.shizuku.cmd.shell-debug-6 E:\StudioProjects\Shizuku\shell\src\debug\res
+rikka.shizuku.cmd.shell-main-7 E:\StudioProjects\Shizuku\shell\src\main\res

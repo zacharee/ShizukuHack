@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="home_app_management_authorized_apps_count">
+        <item quantity="one">Վավերացված է %d ծրագիր</item>
+        <item quantity="other">Վավերացված է %d ծրագիր</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d նոր ծանուցում</item>
+    <item quantity="other">%d նոր ծանուցում</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Անցնել գլխավոր էջ"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Անցնել վերև"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Այլ ընտրանքներ"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Պատրաստ է"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Տեսնել բոլորը"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Ընտրել հավելված"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ԱՆՋԱՏԵԼ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ՄԻԱՑՆԵԼ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"բացատ"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Որոնում…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Ջնջել հարցումը"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Որոնման հարցում"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Որոնել"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Ուղարկել հարցումը"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Ձայնային որոնում"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Կիսվել…"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Կիսվել <ns1:g id="APPLICATION_NAME">%s</ns1:g> հավելվածի միջոցով"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ծալել"</string>
+    <string name="about_view_source_code">Տեսնել կոդի աղբյուրը %s-ում</string>
+    <string name="action_about">Ծրագրի մասին</string>
+    <string name="action_stop">Անջատել Shizuku-ն</string>
+    <string name="adb_error_key_store">Չստացվեց բանակի ստանալ անլար կարգաբերման համար։
+\nՀնարավոր է, որ այս սարքի KeyStore մեխանիզմը փչացել է։</string>
+    <string name="adb_pair_required">Խնդրում ենք սկզբում կատարել զուգելու քայլերը։</string>
+    <string name="adb_pairing">Զուգավորում</string>
+    <string name="adb_pairing_requires_multi_window">Սկզբում միացրեք էկրանի կիսման ռեժիմը։</string>
+    <string name="adb_pairing_requires_multi_window_reason">Համակարգին անհրաժեշտ է որ զուգման պատուհանը միշտ երևա։ Էկրանի կիսման ռեժիմը միակ միջոցն է որ այս ծրագիրը և զուգման պատուհանը միաժամանակ երևան։</string>
+    <string name="app_management_dialog_adb_is_limited_message">Շատ հնարավոր է, որ Ձեր սարքի արտադրողը սահմանափակել է adb-ի թույլտվությունները։ &lt;p>Հնարավոր լուծումները գտեք &lt;b>&lt;a href=\"%1$s\">այստեղ&lt;/a>&lt;/b>։</string>
+    <string name="app_management_dialog_adb_is_limited_title">Adb-ի թույլտվությունները սահմանափակված են</string>
+    <string name="app_management_item_summary_requires_root">* Shizuku-ն root թույլտվություն պետք է ունենա</string>
+    <string name="bottomsheet_action_expand_halfway">Ծավալել կիսով չափ</string>
+    <string name="cannot_connect_port">Հնարավոր չէ կպնել անլար կարգաբերման ծառայությանը։</string>
+    <string name="character_counter_content_description">Մուտքագրված նիշեր՝ %1$d/%2$d</string>
+    <string name="character_counter_overflowed_content_description">Նիշերի առավելագույն քանակը գերազանցվել է (%1$d/%2$d)</string>
+    <string name="clear_text_end_icon_content_description">Ջնջել տեքստը</string>
+    <string msgid="6083905920877235314" name="copy">"Պատճենել"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Հղումը պատճենվեց սեղմատախտակին"</string>
+    <string name="development_settings">Ծրագրավորողի կարգավորումներ</string>
+    <string name="dialog_adb_discovery">Որոնվում է անլար կարգաբերման ծառայությունը</string>
+    <string name="dialog_adb_discovery_message">Խնդրում ենք միացնել «Անլար կարգաբերում»-ը «Ծրագրավորողի կարգավորումներ»-ի մեջ։ «Անլար կարգաբերում»-ը ավտոմատացված ձևով անջատվում է ցանցի փոփոխման ժամանակ։
+\n
+\nՉանջատեք «Ծրագրավորողի կարգավորումներ»-ը կամ «USB-ով կարգաբերում»-ը, թե չէ Shizuku-ն կանջատվի։</string>
+    <string name="dialog_adb_invalid_port">Պոռտը թիվ է 1-ի և 65535-ի միջև։</string>
+    <string name="dialog_adb_pairing_discovery">Որոնվում է զուգելու ծառայությունը</string>
+    <string name="dialog_adb_pairing_message">Սկսեք զուգելը հետևյալ քայլերով. «Ծրագրավորողի կարգավորումներ» - «Անլար կարգաբերում» - «Զուգել սարքը զուգվելու կոդով»։
+\n
+\nԶուգվելու պրոցեսի սկսվելուց հետո դուք կկարողանաք ներմուծել զուգվելու կոդը։</string>
+    <string name="dialog_adb_pairing_paring_code">Զուգելու կոդ</string>
+    <string name="dialog_adb_pairing_title">Զուգել սարքի հետ</string>
+    <string name="dialog_adb_port">Պոռտ</string>
+    <string name="dialog_cannot_open_browser_title">Չհաջողվեց միացնել ինտերնետի ծրագիրը</string>
+    <string name="dialog_legacy_not_support_message">Հին Shizuku-ն համարվում է հնացած 2019-ի մարտից։ Հին Shizuku-ն չի աշխատում նոր Android-ի փոփոխակներում։&lt;p>Դիմեք &lt;b>%1$s&lt;/b>-ի ծրագրավորողին և ասեք, որ ծրագիրը թարմացնի։</string>
+    <string name="dialog_legacy_not_support_title">%1$s-ը չի ընդունում այժմյան Shizuku-ն</string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">Բացել Shizuku-ն</string>
+    <string name="dialog_requesting_legacy_message">&lt;b>%1$s&lt;/b>-ն օժտված է նոր Shizuku-ից օգտվելու հատկությունից, բայց այն փորձում է օգտվել հին Shizuku-ից։ Հնարավոր է, որ Shizuku-ն միացված չէ, ստուգեք Shizuku ծրագիրը։&lt;p>Հին Shizuku-ն համարվում է հնացած 2019-ի մարտից։</string>
+    <string name="dialog_requesting_legacy_title">%1$s-ն առաջարկում է օգտվել հին Shizuku-ից</string>
+    <string name="dialog_stop_message">Shizuku-ի ծառայությունը կանջատվի։</string>
+    <string name="dialog_wireless_adb_not_enabled">Անլար կարգաբերումը միացված չէ։
+\nAndroid 11-ից առաջ անլար կարգաբերման համար անհրաժեշտ է համակարգչային կապ։</string>
+    <string name="error_icon_content_description">Սխալ</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Լրացուցիչ"</string>
+    <string name="exposed_dropdown_menu_content_description">Ցույց տալ իջնող ընտրացանկը</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Պատճենել հղումը"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Բացել դիտարկիչում"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Կիսվել հղումով"</string>
+    <string name="grant_dialog_button_allow_always">Միշտ թույլատրել</string>
+    <string name="grant_dialog_button_deny">Մերժել</string>
+    <string name="home_adb_button_view_command">Տեսնել հրահանգը</string>
+    <string name="home_adb_button_view_help">Կարդալ օգնությունը</string>
+    <string name="home_adb_description">Առանց «root» թույլտվություն ունեցող սարքերի օգտատերերը պետք է օգտագործեն adb, որպեսզի միացնեն Shizuku-ն (անհրաժեշտ է համակարգչային կապ)։ Այս գործողությունը պետք է կրկնել ամեն անգամ սարքի վերաբեռնելուց հետո։ Խնդրում ենք &lt;b>&lt;a href=\"%1$s\">կարդալ օգնությունը&lt;/a>&lt;/b>։</string>
+    <string name="home_adb_dialog_view_command_button_send">Ուղարկել</string>
+    <string name="home_adb_dialog_view_command_copy_button">Պատճենել</string>
+    <string name="home_adb_dialog_view_command_message">&lt;font face=monospace>%1$s&lt;/font>&lt;br>&lt;br>* Գոյություն ունեն ուրիշ դիտողություններ։ Սկզբում հաստատեք, որ կարդացել եք օգնությունը։</string>
+    <string name="home_adb_title">Միացնել համակարգչի օգնությամբ</string>
+    <string name="home_app_management_title">Ծրագրերի տիրապետում</string>
+    <string name="home_app_management_view_authorized_apps">Սեղմեք, որպեսզի վավերացված ծրագրերը տիրապետելու համար</string>
+    <string name="home_learn_more_description">Սովորեք ծրագրավորել Shizuku-ով կամ Shizuku-ն ուրիշ ծրագրերի հետ օգտագործել</string>
+    <string name="home_learn_more_title">Սովորել Shizuku</string>
+    <string name="home_root_button_restart">Վերաբեռնել</string>
+    <string name="home_root_button_start">Միացնել</string>
+    <string name="home_root_title">Միացնել (root արած սարքերի համար)</string>
+    <string name="home_status_service_is_running">%1$s-ը միացված է</string>
+    <string name="home_status_service_not_running">%1$s-ը միացված չէ</string>
+    <string name="home_status_service_version">Փոփոխակ %2$s, %1$s</string>
+    <string name="home_status_service_version_update">Փոփոխակ %2$s, %1$s&lt;br>Միացրեք կրկին որպեսզի թարմացնեք դեպի %3$s փոփոխակ</string>
+    <string name="home_wireless_adb_title">Միացնել Անլար կարգաբերման օգնությամբ</string>
+    <string name="icon_content_description">Երկխոսության պատուհանի պատկերակ</string>
+    <string name="item_view_role_description">Ներդիր</string>
+    <string name="material_clock_toggle_content_description">Ընտրել AM կամ PM</string>
+    <string name="material_hour_selection">Ընտրել ժամը</string>
+    <string name="material_hour_suffix">Ժամը %1$s է</string>
+    <string name="material_minute_selection">Ընտրեք րոպեն</string>
+    <string name="material_minute_suffix">%1$s րոպե</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Ժամը մուտքագրելու համար միացրեք ժամացույցի ռեժիմը:</string>
+    <string name="material_timepicker_hour">Ժամ</string>
+    <string name="material_timepicker_minute">Րոպե</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Ժամանակի ընտրություն</string>
+    <string name="material_timepicker_text_input_mode_description">Ժամը մուտքագրելու համար միացրեք տեքստի մուտքագրման ռեժիմը:</string>
+    <string name="mtrl_badge_numberless_content_description">Նոր ծանուցում</string>
+    <string name="mtrl_chip_close_icon_content_description">Հեռացնել (%1$s)</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Ավելի քան %1$d նոր ծանուցում</string>
+    <string name="mtrl_picker_a11y_next_month">Անցնել հաջորդ ամիս</string>
+    <string name="mtrl_picker_a11y_prev_month">Անցնել նախորդ ամիս</string>
+    <string name="mtrl_picker_announce_current_selection">Ներկայիս ընտրությունը՝ %1$s</string>
+    <string name="mtrl_picker_cancel">Չեղարկել</string>
+    <string name="mtrl_picker_confirm">Եղավ</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Ընտրեք ամսաթիվը</string>
+    <string name="mtrl_picker_date_header_unselected">Ընտրված ամսաթիվը</string>
+    <string name="mtrl_picker_day_of_week_column_header">Օրերի սյունակ՝ %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ձևաչափը սխալ է։</string>
+    <string name="mtrl_picker_invalid_format_example">Օրինակ՝ %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Օգտագործեք՝ %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ընդգրկույթն անվավեր է:</string>
+    <string name="mtrl_picker_navigate_to_year_description">Անցնել %1$s թվական</string>
+    <string name="mtrl_picker_out_of_range">Ընդգրկույթից դուրս է՝ %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Մեկնարկի ամսաթիվը – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Ավարտի ամսաթիվը</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Ընտրեք ընդգրկույթը</string>
+    <string name="mtrl_picker_range_header_unselected">Մեկնարկի ամսաթիվը – Ավարտի ամսաթիվը</string>
+    <string name="mtrl_picker_save">Պահել</string>
+    <string name="mtrl_picker_text_input_date_hint">Ամսաթիվ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Ավարտի ամսաթիվը</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Մեկնարկի ամսաթիվը</string>
+    <string name="mtrl_picker_text_input_day_abbr">օ</string>
+    <string name="mtrl_picker_text_input_month_abbr">ա</string>
+    <string name="mtrl_picker_text_input_year_abbr">տ</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Անցնել օրացույցի մուտքագրման ռեժիմ</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Հպեք՝ օրվա ընտությանն անցնելու համար</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Անցնել տեքստի մուտքագրման ռեժիմին</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Հպեք՝ տարեթվի ընտությանն անցնելու համար</string>
+    <string name="mtrl_timepicker_cancel">Չեղարկել</string>
+    <string name="mtrl_timepicker_confirm">Եղավ</string>
+    <string msgid="6573031135582639649" name="not_set">"Կարգավորված չէ"</string>
+    <string name="notification_channel_service_status">Ծառայության վիճակ</string>
+    <string name="notification_service_start_failed">Shizuku-ի միացումը ձախողվեց։</string>
+    <string name="notification_service_start_no_root">Չհաջողվեց ստանալ root թույլտվություն։</string>
+    <string name="notification_service_starting">Shizuku-ի ծառայությունը միանում է…</string>
+    <string name="notification_working">Աշխատում է…</string>
+    <string name="paring_code_is_wrong">Զուգելու կոդը սխալ է։</string>
+    <string name="password_toggle_content_description">Ցուցադրել գաղտնաբառը</string>
+    <string name="permission_description">Թողնել ծրագրին օգտվել ավելի բարձր արտոնություններով համակարգային API-ներից։</string>
+    <string name="permission_group_description">օգտվել Shizuku-ից</string>
+    <string name="permission_label">օգտվել Shizuku-ից</string>
+    <string name="permission_warning_template">Թույլատրե՞լ <b>%1$s</b> հավելվածին %2$s:</string>
+    <string msgid="6685851473431805375" name="preference_copied">"«<ns1:g id="SUMMARY">%1$s</ns1:g>». պատճենվեց սեղմատախտակին:"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Որոնել"</string>
+    <string name="settings_black_night_theme">Սև գիշերի տեսք</string>
+    <string name="settings_black_night_theme_summary">Օգտագործել սև տեսքը եթե գիշերային ռեժիմը միացված է</string>
+    <string name="settings_language">Լեզու</string>
+    <string name="settings_start_on_boot">Միանալ սարքի հետ (root-ով)</string>
+    <string name="settings_start_on_boot_summary">Root թույլտվություն ունեցող սարքերում Shizuku-ն ավտոմատացված ձևով կարող է միանալ սարքի հետ</string>
+    <string name="settings_startup">Միացում</string>
+    <string name="settings_title">Կարգավորումներ</string>
+    <string name="settings_translation">Մասնակցել թարգմանության մեջ</string>
+    <string name="settings_translation_contributors">Թարգմանության աջակցողներ</string>
+    <string name="settings_translation_summary">Օգնեք մեզ թարգմանել %s-ը Ձեր լեզվով</string>
+    <string name="settings_user_interface">Տեսք</string>
+    <string name="start_with_root_failed">Չհաջողվեց բեռնել ծառայությունը քանի որ root թույլտվությունը մերժված է կամ սարքը root չունի։</string>
+    <string name="starter">Սկսնակ</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="toast_copied_to_clipboard">%s-ն
+\nպատճենվել է կցատարում։</string>
+    <string name="toast_copied_to_clipboard_with_text">&lt;b>%s&lt;/b>-ն պատճենվել է կցատարում։</string>
+    <string name="translation_contributors">Tigran Khachatryan</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"ԱՆՋԱՏԱԾ"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ՄԻԱՑՎԱԾ"</string>
+</resources>

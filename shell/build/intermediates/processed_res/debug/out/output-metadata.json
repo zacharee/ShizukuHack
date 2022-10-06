@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "rikka.shizuku.cmd",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 910,
+      "versionName": "12.13.0.r910.e9a4f48",
+      "outputFile": "resources-debug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

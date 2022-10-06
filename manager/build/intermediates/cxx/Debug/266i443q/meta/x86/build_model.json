@@ -1,0 +1,173 @@
+{
+  "abi": "X86",
+  "info": {
+    "abi": "X86",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "E:\\StudioProjects\\Shizuku\\manager\\.cxx\\Debug\\266i443q\\x86",
+  "soFolder": "E:\\StudioProjects\\Shizuku\\manager\\build\\intermediates\\cxx\\Debug\\266i443q\\obj\\x86",
+  "soRepublishFolder": "E:\\StudioProjects\\Shizuku\\manager\\build\\intermediates\\cmake\\debug\\obj\\x86",
+  "abiPlatformVersion": 23,
+  "cmake": {
+    "effectiveConfiguration": {
+      "inheritEnvironments": [],
+      "variables": []
+    }
+  },
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dnone"
+    ],
+    "cFlagsList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "E:\\StudioProjects\\Shizuku\\manager\\.cxx",
+      "intermediatesBaseFolder": "E:\\StudioProjects\\Shizuku\\manager\\build\\intermediates",
+      "intermediatesFolder": "E:\\StudioProjects\\Shizuku\\manager\\build\\intermediates\\cxx",
+      "gradleModulePathName": ":manager",
+      "moduleRootFolder": "E:\\StudioProjects\\Shizuku\\manager",
+      "moduleBuildFile": "E:\\StudioProjects\\Shizuku\\manager\\build.gradle",
+      "makeFile": "E:\\StudioProjects\\Shizuku\\manager\\src\\main\\jni\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "E:\\Android_Sdk_Win\\ndk\\21.4.7075529",
+      "ndkVersion": "21.4.7075529",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "E:\\Android_Sdk_Win\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "E:\\Android_Sdk_Win\\cmake\\3.18.1\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.18.1"
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "E:\\Android_Sdk_Win\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "E:\\Android_Sdk_Win\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "E:\\Android_Sdk_Win\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "E:\\Android_Sdk_Win\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "E:\\StudioProjects\\Shizuku",
+        "sdkFolder": "E:\\Android_Sdk_Win",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": true
+      },
+      "outputOptions": [],
+      "ninjaExe": "E:\\Android_Sdk_Win\\cmake\\3.18.1\\bin\\ninja.exe"
+    },
+    "prefabClassPaths": [
+      "C:\\Users\\Zacha\\.gradle\\caches\\modules-2\\files-2.1\\com.google.prefab\\cli\\2.0.0\\f2702b5ca13df54e3ca92f29d6b403fb6285d8df\\cli-2.0.0-all.jar"
+    ],
+    "prefabPackages": [
+      "C:\\Users\\Zacha\\.gradle\\caches\\transforms-3\\5434616ce51c8c06ce885af533242dce\\transformed\\cxx-1.2.0\\prefab",
+      "C:\\Users\\Zacha\\.gradle\\caches\\transforms-3\\d6b532aeaa847fb3bc32d3750d6ee4d3\\transformed\\boringssl-2.1\\prefab"
+    ],
+    "prefabPackageConfigurations": [],
+    "stlType": "none",
+    "optimizationTag": "Debug"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "E:\\StudioProjects\\Shizuku\\manager\\.cxx\\Debug\\266i443q\\prefab\\x86",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "266i443q4s4g2i4893q3d1785063u5j5e6f2l6t573e675w2v512lch3g1h",
+  "configurationArguments": [
+    "-HE:\\StudioProjects\\Shizuku\\manager\\src\\main\\jni",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_SYSTEM_VERSION\u003d23",
+    "-DANDROID_PLATFORM\u003dandroid-23",
+    "-DANDROID_ABI\u003dx86",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003dx86",
+    "-DANDROID_NDK\u003dE:\\Android_Sdk_Win\\ndk\\21.4.7075529",
+    "-DCMAKE_ANDROID_NDK\u003dE:\\Android_Sdk_Win\\ndk\\21.4.7075529",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dE:\\Android_Sdk_Win\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003dE:\\Android_Sdk_Win\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\StudioProjects\\Shizuku\\manager\\build\\intermediates\\cxx\\Debug\\266i443q\\obj\\x86",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\StudioProjects\\Shizuku\\manager\\build\\intermediates\\cxx\\Debug\\266i443q\\obj\\x86",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DCMAKE_FIND_ROOT_PATH\u003dE:\\StudioProjects\\Shizuku\\manager\\.cxx\\Debug\\266i443q\\prefab\\x86\\prefab",
+    "-BE:\\StudioProjects\\Shizuku\\manager\\.cxx\\Debug\\266i443q\\x86",
+    "-GNinja",
+    "-DANDROID_STL\u003dnone"
+  ],
+  "intermediatesParentFolder": "E:\\StudioProjects\\Shizuku\\manager\\build\\intermediates\\cxx\\Debug\\266i443q"
+}

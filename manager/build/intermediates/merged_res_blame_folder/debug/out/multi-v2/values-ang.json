@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "moe.shizuku.manager-mergeDebugResources-61:/values-ang/values-ang.xml",
+            "map": [
+                {
+                    "source": "E:\\StudioProjects\\Shizuku\\manager\\src\\main\\res\\values-ang\\strings.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,226",
+                        "endLines": "5,6",
+                        "endColumns": "14,79",
+                        "endOffsets": "221,301"
+                    },
+                    "to": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,220",
+                        "endLines": "5,6",
+                        "endColumns": "14,79",
+                        "endOffsets": "215,295"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="rikka.shizuku.cmd"
+4    android:versionCode="910"
+5    android:versionName="12.13.0.r910.e9a4f48" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->E:\StudioProjects\Shizuku\shell\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->E:\StudioProjects\Shizuku\shell\src\main\AndroidManifest.xml
+10
+11    <application android:extractNativeLibs="false" />
+12
+13</manifest>

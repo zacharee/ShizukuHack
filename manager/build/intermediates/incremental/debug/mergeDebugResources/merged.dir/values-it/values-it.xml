@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="home_app_management_authorized_apps_count">
+        <item quantity="one">%d applicazione autorizzata</item>
+        <item quantity="other">%d applicazioni autorizzate</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nuova notifica</item>
+    <item quantity="other">%d nuove notifiche</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Portami a casa"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Torna indietro"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Mostra tutto"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Scelta di un\'app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"OFF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ON"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"ALT +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"CTRL +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"CANC"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"INVIO"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"FUNZIONE +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"META +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"MAIUSC +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"SPAZIO"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"SYM +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"MENU +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Condividi tramite <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <string name="about_view_source_code">Visualizza il codice sorgente a %s</string>
+    <string name="action_about">Info</string>
+    <string name="action_stop">Interrompi Shizuku</string>
+    <string name="adb_error_key_store">Impossibile generare la chiave per il debug wireless.
+\nCiò potrebbe essere dovuto ad un malfunzionamento del meccanismo di KeyStore di questo dispositivo.</string>
+    <string name="adb_pair_required">Esegui prima la fase di accoppiamento.</string>
+    <string name="adb_pairing">Accoppiamento</string>
+    <string name="adb_pairing_requires_multi_window">Entra prima nella modalità schermo diviso (multi-finestra).</string>
+    <string name="adb_pairing_requires_multi_window_reason">Il sistema richiede che la finestra di dialogo di accoppiamento sia sempre visibile, l\'utilizzo della modalità schermo diviso è l\'unico modo per rendere visibili contemporaneamente l\'app e la finestra di dialogo di sistema.</string>
+    <string name="adb_pairing_tutorial_content_enter_pairing_code">Inserisci il codice nella notifica per completare l\'accoppiamento.</string>
+    <string name="adb_pairing_tutorial_content_finish">Torna a Shizuku e avvia Shizuku.</string>
+    <string name="adb_pairing_tutorial_content_left_is_clickable">Tieni presente che la parte a sinistra dell\'opzione \"Debug wireless\" è selezionabile, toccandola si aprirà una nuova pagina. Solo la pressione dell\'interruttore a destra non è corretta.</string>
+    <string name="adb_pairing_tutorial_content_miui">Gli utenti MIUI potrebbero dover impostare lo stile di notifica su \"Android\" da \"Notifiche\" - \"Pannello notifiche\" nelle impostazioni di sistema.</string>
+    <string name="adb_pairing_tutorial_content_miui_2">In caso contrario, potresti non essere in grado di inserire il codice di accoppiamento dalla notifica.</string>
+    <string name="adb_pairing_tutorial_content_network">Shizuku ha bisogno di accedere alla rete locale. È controllato dal permesso di rete.</string>
+    <string name="adb_pairing_tutorial_content_network_limation_not_foreground">Alcuni sistemi (come MIUI) non consentono alle app di accedere alla rete quando queste non sono visibili, anche se l\'app utilizza il servizio in primo piano come standard. Disattiva le funzioni di ottimizzazione della batteria per Shizuku su tali sistemi.</string>
+    <string name="adb_pairing_tutorial_content_notification">Una notifica da Shizuku ti aiuterà a completare l\'accoppiamento.</string>
+    <string name="adb_pairing_tutorial_content_notification_blocked">Il processo di accoppiamento richiede che tu interagisca con una notifica di Shizuku. Consenti a Shizuku di mostrare notifiche.</string>
+    <string name="adb_pairing_tutorial_content_steps">Entra in \"Modalità sviluppatore\" - \"Debug wireless\". Seleziona \"Accoppia dispositivo con codice di associazione\", vedrai un codice a sei cifre.</string>
+    <string name="adb_pairing_tutorial_title">Accoppia Shizuku col tuo dispositivo</string>
+    <string name="app_management_dialog_adb_is_limited_message">È molto probabile che il fabbricante del tuo dispositivo limiti i permessi di adb.&lt;p>Ci potrebbe essere una soluzione per il vostro dispositivo in &lt;b>&lt;a href=\"%1$s\">questo documento&lt;/a>&lt;/b>.</string>
+    <string name="app_management_dialog_adb_is_limited_title">Il permesso di adb è limitato</string>
+    <string name="app_management_item_summary_requires_root">* richiede Shizuku in modalità root</string>
+    <string name="bottomsheet_action_expand_halfway">Espandi a metà</string>
+    <string name="cannot_connect_port">Impossibile connettersi al servizio di debug wireless.</string>
+    <string name="character_counter_content_description">%1$d caratteri inserirti su %2$d</string>
+    <string name="character_counter_overflowed_content_description">Sono presenti %2$d caratteri in più rispetto al limite di %1$d</string>
+    <string name="clear_text_end_icon_content_description">Cancella testo</string>
+    <string msgid="6083905920877235314" name="copy">"Copia"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Link copiato negli appunti"</string>
+    <string name="dark_theme">Tema scuro</string>
+    <string name="dark_theme_auto_battery">Quando il Risparmio energetico è attivato</string>
+    <string name="dark_theme_auto_time">Di notte</string>
+    <string name="dark_theme_off">Sempre disattivato</string>
+    <string name="dark_theme_on">Sempre attivo</string>
+    <string name="development_settings">Modalità sviluppatore</string>
+    <string name="dialog_adb_discovery">Ricerca del servizio di debug wireless</string>
+    <string name="dialog_adb_discovery_message">Abilita \"Debug wireless\" in \"Opzioni sviluppatore\". \"Debug wireless\" viene automaticamente disabilitato quando la rete cambia.
+\n
+\nNota, non disabilitare \"Opzioni sviluppatore\" o \"Debug USB\", altrimenti Shizuku verrà interrotto.</string>
+    <string name="dialog_adb_invalid_port">La porta è un numero intero compreso tra 1 e 65535.</string>
+    <string name="dialog_adb_pairing_discovery">Ricerca del servizio di accoppiamento</string>
+    <string name="dialog_adb_pairing_message">Inizia l\'accoppiamento con i seguenti passaggi: \"Opzioni sviluppatore\" - \"Debug wireless\" - \"Accoppiamento del dispositivo tramite codice di associazione\".
+\n
+\nDopo l\'avvio del processo di accoppiamento, potrai inserire il codice.</string>
+    <string name="dialog_adb_pairing_paring_code">Codice di accoppiamento</string>
+    <string name="dialog_adb_pairing_title">Accoppia con il dispositivo</string>
+    <string name="dialog_adb_port">Porta</string>
+    <string name="dialog_cannot_open_browser_title">Impossibile avviare il browser</string>
+    <string name="dialog_legacy_not_support_message">Shizuku legacy è stato deprecato a marzo 2019. Inoltre, Shizuku legacy non funziona sui sistemi Android più recenti.&lt;p>Chiedi allo sviluppatore&lt;b>%1$s&lt;/b> di aggiornare.</string>
+    <string name="dialog_legacy_not_support_title">%1$s non supporta il moderno Shizuku</string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">Apri Shizuku</string>
+    <string name="dialog_requesting_legacy_message">&lt;b>%1$s&lt;/b> ha il supporto al Shizuku moderno, ma sta richiedendo Shizuku legacy. Questo potrebbe essere perché Shizuku non è in esecuzione, controlla nell\'app Shizuku.&lt;p>Shizuku legacy è stato deprecato a marzo 2019.</string>
+    <string name="dialog_requesting_legacy_title">%1$s sta richiedendo Shizuku legacy</string>
+    <string name="dialog_stop_message">Il servizio Shizuku verrà interrotto.</string>
+    <string name="dialog_wireless_adb_not_enabled">Il debug wireless non è abilitato.
+\nNota, per versioni precedenti ad Android 11, per abilitare il debug wireless, è necessaria la connessione al computer.</string>
+    <string name="error_icon_content_description">Errore</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Avanzate"</string>
+    <string name="exposed_dropdown_menu_content_description">Mostra il menu a discesa</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copia link"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Apri nel browser"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Condividi link"</string>
+    <string name="follow_system">Uguale al sistema</string>
+    <string name="grant_dialog_button_allow_always">Consenti sempre</string>
+    <string name="grant_dialog_button_deny">Nega</string>
+    <string name="home_adb_button_view_command">Visualizza comando</string>
+    <string name="home_adb_button_view_help">Leggi la guida</string>
+    <string name="home_adb_description">Per i dispositivi non rootati occorre usare adb per avviare Shizuku (serve una connessione ad un computer). Questo processo deve essere ripetuto ogni volta che il dispositivo viene riavviato. Per favore <b><a href="%1$s">leggi la guida</a></b>.</string>
+    <string name="home_adb_dialog_view_command_button_send">Invia</string>
+    <string name="home_adb_dialog_view_command_copy_button">Copia</string>
+    <string name="home_adb_dialog_view_command_message">&lt;font face=monospace>%1$s&lt;/font>&lt;br>&lt;br>* Ci sono altre considerazioni, conferma di aver letto prima la guida.</string>
+    <string name="home_adb_title">Avvia collegandoti a un computer</string>
+    <string name="home_app_management_title">Gestione dell\'applicazione</string>
+    <string name="home_app_management_view_authorized_apps">Premere per gestire le app autorizzate</string>
+    <string name="home_learn_more_description">Impara a sviluppare con Shizuku o scarica app che usano Shizuku</string>
+    <string name="home_learn_more_title">Impara Shizuku</string>
+    <string name="home_root_button_restart">Riavvia</string>
+    <string name="home_root_button_start">Avvia</string>
+    <string name="home_root_description">Inoltre, Shizuku può essere avviato automaticamente all\'avvio. In caso contrario, controlla se il tuo sistema o l\'opzione app esterne hanno limitato Shizuku.&lt;br>Puoi fare riferimento a %s.</string>
+    <string name="home_root_description_sui">Se stai usando Magisk, puoi provare %1$s. Per gli utenti root, alla fine sostituirà Shizuku. Nota, le applicazioni esistenti devono essere leggermente modificate per poter usare %2$s.</string>
+    <string name="home_root_title">Avvia (per dispositivi rootati)</string>
+    <string name="home_status_service_is_running">%1$s è in esecuzione</string>
+    <string name="home_status_service_not_running">%1$s non è in esecuzione</string>
+    <string name="home_status_service_version">Versione %2$s, %1$s</string>
+    <string name="home_status_service_version_update">Versione %2$s, %1$s&lt;br>Riavvia per aggiornare alla versione %3$s</string>
+    <string name="home_terminal_description">Esegui comandi attraverso Shizuku nelle apps terminale che desiderate</string>
+    <string name="home_terminal_title">Utilizza Shizuku nell\'app terminale</string>
+    <string name="home_wireless_adb_description">Su Android 11 o successivi, puoi abilitare il debug wireless e avviare Shizuku direttamente dal tuo dispositivo, senza doverti collegare a un computer.&lt;p>Consulta prima la guida passo-passo.</string>
+    <string name="home_wireless_adb_description_pre_11">Per le versioni precedenti ad Android 11, è necessario collegarsi ad un computer per abilitare il debug wireless.</string>
+    <string name="home_wireless_adb_title">Avvia tramite debug wireless</string>
+    <string name="home_wireless_adb_view_guide_button">Guida passo-passo</string>
+    <string name="icon_content_description">Icona della finestra di dialogo</string>
+    <string name="item_view_role_description">Scheda</string>
+    <string name="material_clock_toggle_content_description">Seleziona AM o PM</string>
+    <string name="material_hour_selection">Seleziona l\'ora</string>
+    <string name="material_hour_suffix">%1$s in punto</string>
+    <string name="material_minute_selection">Seleziona i minuti</string>
+    <string name="material_minute_suffix">%1$s minuti</string>
+    <string name="material_timepicker_am">am</string>
+    <string name="material_timepicker_clock_mode_description">Passa alla modalità orologio per inserire l\'ora.</string>
+    <string name="material_timepicker_hour">Ora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">pm</string>
+    <string name="material_timepicker_select_time">Seleziona l\'ora</string>
+    <string name="material_timepicker_text_input_mode_description">Passa alla modalità di immissione testo per inserire l\'ora.</string>
+    <string name="mtrl_badge_numberless_content_description">Nuova notifica</string>
+    <string name="mtrl_chip_close_icon_content_description">Rimuovi %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Più di %1$d nuove notifiche</string>
+    <string name="mtrl_picker_a11y_next_month">Passa al mese successivo</string>
+    <string name="mtrl_picker_a11y_prev_month">Passa al mese precedente</string>
+    <string name="mtrl_picker_announce_current_selection">Selezione attuale: %1$s</string>
+    <string name="mtrl_picker_cancel">Annulla</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Seleziona data</string>
+    <string name="mtrl_picker_date_header_unselected">Data selezionata</string>
+    <string name="mtrl_picker_day_of_week_column_header">Colonna dei giorni: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato non valido.</string>
+    <string name="mtrl_picker_invalid_format_example">Esempio: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usa: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Intervallo non valido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Vai all\'anno %1$s</string>
+    <string name="mtrl_picker_out_of_range">Non compresa nell\'intervallo: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Data di inizio - %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s - Data di fine</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">Seleziona intervallo</string>
+    <string name="mtrl_picker_range_header_unselected">Data di inizio - Data di fine</string>
+    <string name="mtrl_picker_save">Salva</string>
+    <string name="mtrl_picker_text_input_date_hint">Data</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Data di fine</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Data di inizio</string>
+    <string name="mtrl_picker_text_input_day_abbr">g</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Passa alla modalità di immissione Calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tocca per passare alla selezione di un giorno</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Passa alla modalità di immissione Testo</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tocca per passare alla selezione di un anno</string>
+    <string name="mtrl_timepicker_cancel">Annulla</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string msgid="6573031135582639649" name="not_set">"Non impostato"</string>
+    <string name="notification_adb_pairing_failed_title">Accoppiamento non riuscito</string>
+    <string name="notification_adb_pairing_input_paring_code">Inserire codice di associazione</string>
+    <string name="notification_adb_pairing_retry">Riprova</string>
+    <string name="notification_adb_pairing_searching_for_service_title">Ricerca del servizio di accoppiamento</string>
+    <string name="notification_adb_pairing_service_found_title">Servizio di accoppiamento trovato</string>
+    <string name="notification_adb_pairing_stop_searching">Interrompi la ricerca</string>
+    <string name="notification_adb_pairing_succeed_text">Ora puoi avviare il servizio Shizuku.</string>
+    <string name="notification_adb_pairing_succeed_title">Accoppiato con successo</string>
+    <string name="notification_adb_pairing_working_title">Accoppiamento in corso</string>
+    <string name="notification_channel_adb_pairing">Accoppiamento debug wireless</string>
+    <string name="notification_channel_service_status">Stato di avvio del servizio</string>
+    <string name="notification_service_start_failed">Avvio del servizio Shizuku non riuscito.</string>
+    <string name="notification_service_start_no_root">Impossibile richiedere i permessi di root.</string>
+    <string name="notification_service_starting">Il servizio Shizuku si sta avviando…</string>
+    <string name="notification_settings">Opzioni di notifica</string>
+    <string name="notification_working">Esecuzione…</string>
+    <string name="paring_code_is_wrong">Il codice di accoppiamento è sbagliato.</string>
+    <string name="password_toggle_content_description">Mostra password</string>
+    <string name="permission_description">Consenti all\'app di usare Shizuku.</string>
+    <string name="permission_label">accesso Shizuku</string>
+    <string name="permission_warning_template">Consentire a <b>%1$s</b> di %2$s\?</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\"copiato negli appunti."</string>
+    <string name="rish_description">Con %1$s, in qualsiasi app terminale, puoi connetterti e interagire con la shell eseguita da Shizuku. &lt;p>Per info sull\'utilizzo dettagliato di %1$s, tocca per visualizzare il documento.</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Cerca"</string>
+    <string name="settings_black_night_theme">Tema nero notte</string>
+    <string name="settings_black_night_theme_summary">Usa il tema nero puro se la modalità notte è abilitata</string>
+    <string name="settings_language">Lingua</string>
+    <string name="settings_start_on_boot">Avvia all\'accensione (root)</string>
+    <string name="settings_start_on_boot_summary">Per i dispositivi rootati, Shizuku è in grado di avviarsi automaticamente all\'avvio</string>
+    <string name="settings_startup">Avvio</string>
+    <string name="settings_title">Impostazioni</string>
+    <string name="settings_translation">Partecipa alla traduzione</string>
+    <string name="settings_translation_contributors">Contributori alla traduzione</string>
+    <string name="settings_translation_summary">Aiutaci a tradurre %s nella tua lingua</string>
+    <string name="settings_use_system_color">Usa il colore del tema di sistema</string>
+    <string name="settings_user_interface">Aspetto</string>
+    <string name="start_with_root_failed">Impossibile avviare il servizio poiché i permessi di root non sono stati concessi o questo dispositivo non è rootato.</string>
+    <string name="starter">Accensione</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="terminal_export_files">Esporta files</string>
+    <string name="terminal_tutorial_1">Per primo, esporta i files ovunque tu voglia, %1$s e %2$s.</string>
+    <string name="terminal_tutorial_1_description">Se esistono files con lo stesso nome nella cartella selezionata, saranno cancellati.
+\n
+\nLa funzione di esportazione usa SAF (Storage Access Framework). Si segnala che MIUI impedisce la funzione SAF. Se utilizzate MIUI, dovrete probabilmente estrarre il file dall\'apk Shizuku o scaricarlo da GitHub.</string>
+    <string name="terminal_tutorial_2">Poi usa un qualsiasi editore testi per aprire e modificare %1$s.</string>
+    <string name="terminal_tutorial_2_description">Ad esempio, se vuoi utilizzare Shizuku in %1$s, devi sostituire %2$s con %3$s (%4$s è il nome del pacchetto di %1$s).</string>
+    <string name="terminal_tutorial_3">Infine, sposta i file in un punto in cui l\'app del terminale può accedere, così sarai in grado di utilizzare %1$s per eseguire comandi tramite Shizuku.</string>
+    <string name="terminal_tutorial_3_description">Alcuni suggerimenti: concedi il permesso di esecuzione a %1$s e aggiungilo a %2$s, così potrai utilizzare %1$s direttamente.</string>
+    <string name="toast_copied_to_clipboard">%s
+\nè stato copiato negli appunti.</string>
+    <string name="toast_copied_to_clipboard_with_text"><b>%s</b> è stato copiato negli appunti.</string>
+    <string name="translation_contributors">Dany-coder778, xDonatello</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"OFF"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ON"</string>
+</resources>

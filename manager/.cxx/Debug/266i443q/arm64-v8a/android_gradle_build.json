@@ -1,0 +1,52 @@
+{
+  "buildFiles": [
+    "E:\\StudioProjects\\Shizuku\\manager\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "E:\\Android_Sdk_Win\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "E:\\StudioProjects\\Shizuku\\manager\\.cxx\\Debug\\266i443q\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "E:\\Android_Sdk_Win\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "E:\\StudioProjects\\Shizuku\\manager\\.cxx\\Debug\\266i443q\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "adb::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "adb",
+      "output": "E:\\StudioProjects\\Shizuku\\manager\\build\\intermediates\\cxx\\Debug\\266i443q\\obj\\arm64-v8a\\libadb.so",
+      "runtimeFiles": []
+    },
+    "libshizuku.so::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "libshizuku.so",
+      "output": "E:\\StudioProjects\\Shizuku\\manager\\build\\intermediates\\cxx\\Debug\\266i443q\\obj\\arm64-v8a\\libshizuku.so",
+      "runtimeFiles": []
+    },
+    "mstring::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "mstring",
+      "output": "E:\\StudioProjects\\Shizuku\\manager\\build\\intermediates\\cxx\\Debug\\266i443q\\obj\\arm64-v8a\\libmstring.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "E:\\Android_Sdk_Win\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "E:\\Android_Sdk_Win\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

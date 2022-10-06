@@ -1,0 +1,39 @@
+{
+  "buildFiles": [
+    "E:\\StudioProjects\\Shizuku\\manager\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "E:\\Android_Sdk_Win\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "E:\\StudioProjects\\Shizuku\\manager\\.cxx\\Debug\\266i443q\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "E:\\Android_Sdk_Win\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "E:\\StudioProjects\\Shizuku\\manager\\.cxx\\Debug\\266i443q\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "mstring::@6890427a1f51a3e7e1df": {
+      "artifactName": "mstring",
+      "abi": "x86",
+      "output": "E:\\StudioProjects\\Shizuku\\manager\\build\\intermediates\\cxx\\Debug\\266i443q\\obj\\x86\\libmstring.so",
+      "runtimeFiles": []
+    },
+    "adb::@6890427a1f51a3e7e1df": {
+      "artifactName": "adb",
+      "abi": "x86",
+      "output": "E:\\StudioProjects\\Shizuku\\manager\\build\\intermediates\\cxx\\Debug\\266i443q\\obj\\x86\\libadb.so",
+      "runtimeFiles": []
+    },
+    "libshizuku.so::@6890427a1f51a3e7e1df": {
+      "artifactName": "libshizuku.so",
+      "abi": "x86",
+      "output": "E:\\StudioProjects\\Shizuku\\manager\\build\\intermediates\\cxx\\Debug\\266i443q\\obj\\x86\\libshizuku.so",
+      "runtimeFiles": []
+    }
+  }
+}

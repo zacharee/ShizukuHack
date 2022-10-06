@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "moe.shizuku.manager-mergeDebugResources-61:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Zacha\\.gradle\\caches\\transforms-3\\db1efd8bd9da8be40d64e9903cca1604\\transformed\\material-2.5.1-debug\\res\\values-v27\\values-v27.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,140,227,475",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "84,86,12,12",
+                        "endOffsets": "135,222,470,719"
+                    }
+                }
+            ]
+        }
+    ]
+}

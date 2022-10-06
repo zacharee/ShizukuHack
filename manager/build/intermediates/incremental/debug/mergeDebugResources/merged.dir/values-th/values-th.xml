@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="home_app_management_authorized_apps_count">
+        <item quantity="other">อนุญาตแล้ว %d แอปพลิเคชัน</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+    <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"นำทางไปหน้าแรก"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"กลับ"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ตัวเลือกอื่น"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"เสร็จ"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"ดูทั้งหมด"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"เลือกแอป"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ปิด"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"เปิด"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"ลบ"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"เมนู+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"ค้นหา…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"ล้างคำค้นหา"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"คำค้นหา"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"ค้นหา"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"ส่งคำค้นหา"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"ค้นหาด้วยเสียง"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"แชร์กับ"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"แชร์ทาง <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ยุบ"</string>
+    <string name="about_view_source_code">ดูซอร์สโค้ดใน %s</string>
+    <string name="action_about">เกี่ยวกับ</string>
+    <string name="action_stop">หยุดทำงาน Shizuku</string>
+    <string name="adb_error_key_store">ไม่สามารถสร้างรหัสเพื่อเชื่อมต่อการแก้ไขข้อบกพร่องผ่าน Wi-Fi
+\nอาจเป็นเพราะกลไกการจัดเก็บรหัสของอุปกรณ์เสียหาย</string>
+    <string name="adb_pair_required">โปรดทำขั้นตอนการจับคู่ก่อน</string>
+    <string name="adb_pairing">จับคู่</string>
+    <string name="adb_pairing_requires_multi_window">โปรดเข้าสู่โหมดแยกหน้าจอ (หลายหน้าต่าง) ก่อน</string>
+    <string name="adb_pairing_requires_multi_window_reason">ระบบจำเป็นจะต้องให้มีหน้าต่างรหัสการจับคู่แสดงอยู่ตลอดเวลา ใช้โหมดแนกหน้าจอเป็นหนทางเดียวที่จะปล่อยแอปและหน้าต่างของระบบแสดงพร้อมกันในเวลาเดียวกัน</string>
+    <string name="adb_pairing_tutorial_content_enter_pairing_code">ป้อนรหัสลงไปในการแจ้งเตือนเพื่อเสร็จสิ้นการจับคู่</string>
+    <string name="adb_pairing_tutorial_content_finish">กลับไปที่ Shizuku เพื่อเริ่ม Shizuku</string>
+    <string name="adb_pairing_tutorial_content_left_is_clickable">โปรดให้ทราบว่า ส่วนด้านซ้ายของตัวเลือก \"การแก้ไขข้อบกพร่องผ่าน Wi-Fi\" สามารถกดได้ เมื่อแตะแล้วจะเปิดหน้าใหม่ขึ้นมา การแค่เปิดสวิตช์ที่ด้านขวาอย่างเดียวนั้นไม่ถูกต้อง</string>
+    <string name="adb_pairing_tutorial_content_miui">ผู้ใช้ MIUI อาจจำเป็นต้องเปลี่ยนสไตล์การแจ้งเตือนเป็น \"Android\" ใน \"การแจ้งเตือน\" -\"เฉดการแจ้งเตือน\" ในการตั้งค่าของระบบ</string>
+    <string name="adb_pairing_tutorial_content_miui_2">ไม่เช่นนั้นจะไม่สามารถป้อนรหัสการจับคู่ลงในการแจ้งเตือน</string>
+    <string name="adb_pairing_tutorial_content_network">Shizuku จำเป็นต้องเข้าถึงเครือข่ายท้องถิ่น ซึ่งกำลังควบคุมอยู่โดยการอนุญาตเครือข่าย</string>
+    <string name="adb_pairing_tutorial_content_network_limation_not_foreground">บางระบบ (เช่น MIUI) จะไม่อนุญาตให้แอปเข้าถึงเครือข่ายเมื่อไม่แสดง แม้แอปจะใช้บริการเบื้องหน้าตามปกติ โปรดเปิดใช้งานการเพิ่มประสิทธิภาพแบตเตอรี่ของ Shizuku บนระบบที่เป็นเช่นนั้น</string>
+    <string name="adb_pairing_tutorial_content_notification">การแจ้งเตือนจาก Shizuku จะช่วยให้เสร็จสิ้นกระบวนการจับคู่</string>
+    <string name="adb_pairing_tutorial_content_notification_blocked">กระบวนการจับคู่จำเป็นต้องมีการป้อนข้อมูลลงในการแจ้งเตือนของ Shizuku โปรดอนุญาตให้ Shizuku ส่งการแจ้งเตือน</string>
+    <string name="adb_pairing_tutorial_content_steps">เข้าไปยัง \"ตัวเลือกสำหรับนักพัฒนาแอป\" - \"การแก้ไขข้อบกพร่องผ่าน Wi-Fi\" แตะ \"จับคู่อุปกรณ์ผ่านรหัสการจับคู่\" ก็จะพบกับรหัสหกตัว</string>
+    <string name="adb_pairing_tutorial_title">จับคู่ Shizuku กับอุปกรณ์</string>
+    <string name="app_management_dialog_adb_is_limited_message">เป็นไปได้สูงที่ผู้ผลิตอุปกรณ์ของคุณจะจำกัดการอนุญาตของ adb &lt;p>อาจมีวิธีแก้ไขสำหรับอุปกรณ์ของคุณใน&lt;b>&lt;a href=\"%1$s\">เอกสารนี้&lt;/a>&lt;/b></string>
+    <string name="app_management_dialog_adb_is_limited_title">การอนุญาตของ adb นั้นจำกัด</string>
+    <string name="app_management_item_summary_requires_root">* จำเป็นต้องให้ Shizuku ทำงานผ่านรูท</string>
+    <string name="bottomsheet_action_expand_halfway">ขยายรายการครึ่งหนึ่ง</string>
+    <string name="cannot_connect_port">ไม่สามารถเชื่อมต่อกับบริการการแก้ไขข้อบกพร่องผ่าน Wi-Fi</string>
+    <string name="character_counter_content_description">ป้อนอักขระแล้ว %1$d จาก %2$d ตัว</string>
+    <string name="character_counter_overflowed_content_description">เกินจำนวนอักขระสูงสุด %1$d จาก %2$d</string>
+    <string name="clear_text_end_icon_content_description">ล้างข้อความ</string>
+    <string msgid="6083905920877235314" name="copy">"คัดลอก"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"คัดลอกลิงก์ไปยังคลิปบอร์ดแล้ว"</string>
+    <string name="development_settings">ตัวเลือกสำหรับนักพัฒนาแอป</string>
+    <string name="dialog_adb_discovery">กำลังค้นหาบริการการแก้ไขข้อบกพร่อง</string>
+    <string name="dialog_adb_discovery_message">โปรดเปิดใช้งาน \"การแก้ไขข้อบกพร่องผ่าน Wi-Fi\" ใน \"ตัวเลือกสำหรับนักพัฒนาแอป\" \"การแก้ไขข้อบกพร่องผ่าน Wi-Fi\" จะถูกปิดโดยอัตโนมัติเมื่อเปลี่ยนเครือข่าย
+\n
+\nหมายเหตุ ห้ามปิดใช้งาน \"ตัวเลือกสำหรับนักพัฒนาแอป\" หรือ \"การแก้ไขข้อบกพร่อง USB\" ไม่เช่นนั้น Shizuku จะหยุดการทำงาน</string>
+    <string name="dialog_adb_discovery_message_toggle_wireless_debugging">โปรดลองปิดและเปิดใช้งาน \"การแก้ไขข้อบกพร่องผ่าน Wi-Fi\" ใหม่ หากระบบยังคงค้นหาอยู่</string>
+    <string name="dialog_adb_invalid_port">พอร์ตคือเลขจำนวนเต็ม ค่าตั้งแต่ 1 ถึง 65535</string>
+    <string name="dialog_adb_pairing_discovery">กำลังค้นหาบริการจับคู่</string>
+    <string name="dialog_adb_pairing_message">โปรดเริ่มจับคู่ตามขั้นตอนนี้: \"ตัวเลือกสำหรับนักพัฒนาแอป\" - \"การแก้ไขข้อบกพร่องผ่าน Wi-Fi\" - \"จับคู่อุปกรณ์ด้วยรหัสการจับคู่\"
+\n
+\nหลังจากเริ่มกระบวนการจับคู่ จะสามารถป้อนรหัสการจับคู่</string>
+    <string name="dialog_adb_pairing_paring_code">รหัสการจับคู่</string>
+    <string name="dialog_adb_pairing_title">จับคู่กับอุปกรณ์</string>
+    <string name="dialog_adb_port">พอร์ต</string>
+    <string name="dialog_cannot_open_browser_title">ไม่สามารถเปิดบราวเซอร์</string>
+    <string name="dialog_legacy_not_support_message">Shizuku รุ่นเก่าได้ถูกเลิกใช้ไปแล้วตั้งแต่เดือนมีนาคม 2019 นอกจากนี้ Shizuku รุ่นเก่ายังใช้งานไม่ได้กับระบบ Android ที่ใหม่กว่า &lt;p>โปรดติดต่อผู้พัฒนาของ &lt;b>%1$s&lt;/b> เพื่ออัปเดตเป็นเวอร์ชันใหม่</string>
+    <string name="dialog_legacy_not_support_title">%1$s ไม่รองรับ Shizuku รุ่นใหม่</string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">เปิด Shizuku</string>
+    <string name="dialog_requesting_legacy_message">&lt;b>%1$s&lt;/b> รองรับ Shizuku รุ่นใหม่ แต่กำลังขอร้อง Shizuku รุ่นเก่า นี่อาจเป็นเพราะ Shizuku ไม่ทำงาน โปรดตรวจสอบในแอป Shizuku &lt;p>Shizuku รุ่นเก่าได้ถูกเลิกใช้ไปแล้วตั้งแต่เดือนมีนาคมปี 2019</string>
+    <string name="dialog_requesting_legacy_title">%1$s กำลังขอร้อง Shizuku รุ่นเก่า</string>
+    <string name="dialog_stop_message">บริการ Shizuku จะถูกหยุดทำงาน</string>
+    <string name="dialog_wireless_adb_not_enabled">การแก้ไขข้อบกพร่องผ่าน Wi-Fi ไม่ถูกเปิดไว้
+\nหมายเหตุ หาก Android เป็นรุ่นที่เก่ากว่า 11 การจะเปิดการแก้ไขข้อบกพร่องผ่าน Wi-Fi จำเป็นต้องมีการเชื่อมต่อกับคอมพิวเตอร์</string>
+    <string name="error_icon_content_description">ข้อผิดพลาด</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"ขั้นสูง"</string>
+    <string name="exposed_dropdown_menu_content_description">แสดงเมนูแบบเลื่อนลง</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"คัดลอกลิงก์"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"เปิดในเบราว์เซอร์"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"แชร์ลิงก์"</string>
+    <string name="grant_dialog_button_allow_always">อนุญาตเสมอ</string>
+    <string name="grant_dialog_button_deny">ปฏิเสธ</string>
+    <string name="home_adb_button_view_command">ดูคำสั่ง</string>
+    <string name="home_adb_button_view_help">อ่านการช่วยเหลือ</string>
+    <string name="home_adb_description">สำหรับอุปกรณ์ที่ไม่ได้ติดตั้งรูท จะต้องใช้ adb เพื่อเริ่ม Shizuku (จำเป็นต้องเชื่อมต่อกับคอมพิวเตอร์) กระบวนการนี้จะต้องทำทุกครั้งที่อุปกรณ์ปิดและเปิดใหม่ กรุณา<b><a href="%1$s">อ่านการช่วยเหลือ</a></b></string>
+    <string name="home_adb_dialog_view_command_button_send">ส่ง</string>
+    <string name="home_adb_dialog_view_command_copy_button">คัดลอก</string>
+    <string name="home_adb_dialog_view_command_message">&lt;font face=monospace>%1$s&lt;/font>&lt;br>&lt;br>* มีข้อควรพิจารณาอื่น ๆ โปรดอ่านความช่วยเหลือให้เข้าใจก่อน</string>
+    <string name="home_adb_is_limited_description">ผู้ผลิตอุปกรณ์ของคุณ จำกัดการอนุญาต adb ทำให้แอปที่ใช้ Shizuku จะไม่ทำงานอย่างถูกต้อง
+\n
+\nโดยปกติ ข้อจำกัดนี้สามารถจัดการได้โดยการปรับตัวเลือกใน \"ตัวเลือกสำหรับนักพัฒนาซอฟต์แวร์\" โปรดอ่าน การช่วยเหลือสำหรับรายละเอียดวิธีการแก้ไข
+\n
+\nคุณอาจต้องรีสตาร์ท Shizuku เพื่อให้การดำเนินการมีผล</string>
+    <string name="home_adb_is_limited_title">คุณต้องทำขั้นตอนเพิ่มเติม</string>
+    <string name="home_adb_title">เริ่มโดยเชื่อมต่อกับคอมพิวเตอร์</string>
+    <string name="home_app_management_empty">แอปที่ขอร้องหรือขอใช้ Shizuku จะแสดงที่นี่</string>
+    <string name="home_app_management_title">การจัดการแอปพลิเคชัน</string>
+    <string name="home_app_management_view_authorized_apps">แตะเพื่อจัดการแอปที่ได้รับอนุญาต</string>
+    <string name="home_learn_more_description">เรียนรู้การพัฒนาเพื่อใช้ร่วมกันกับ Shizuku</string>
+    <string name="home_learn_more_title">เรียนรู้ Shizuku</string>
+    <string name="home_root_button_restart">เริ่มใหม่</string>
+    <string name="home_root_button_start">เริ่ม</string>
+    <string name="home_root_description">นอกจากนี้ Shizuku ยังสามารถเริ่มอัตโนมัติเมื่ออุปกรณ์ถูกเปิด หากไม่ โปรดตรวจสอบอุปกรณ์หรือเครื่องมือภายนอกที่จำกัดการเข้าถึงของ Shizuku&lt;br>หรือดูตาม %s</string>
+    <string name="home_root_description_sui">หากคุณกำลังใช้ Magisk สามารถลองใช้ %1$s สำหรับผู้ใช้งานรูท จะเป็นตัวที่ใช้แทนที่ Shizuku แต่โปรดทราบว่า แอปพลิเคชันที่มีอยู่จำเป็นต้องเปลี่ยนเล็กน้อยให้ไปใช้ %2$s</string>
+    <string name="home_root_title">เริ่ม (สำหรับอุปกรณ์ที่รูทแล้ว)</string>
+    <string name="home_status_service_is_running">%1$s กำลังทำงาน</string>
+    <string name="home_status_service_not_running">%1$s ไม่ได้กำลังทำงาน</string>
+    <string name="home_status_service_version">เวอร์ชัน %2$s ผ่าน %1$s</string>
+    <string name="home_status_service_version_update">เวอร์ชัน %2$s, %1$s&lt;br>เริ่มใหม่อีกครั้งเพื่ออัปเดตเป็นเวอร์ชัน %3$s</string>
+    <string name="home_terminal_description">สั่งคำสั่งผ่าน Shizuku ในแอปเทอร์มินอลที่คุณเลือก</string>
+    <string name="home_terminal_title">ใช้ Shizuku ในแอปเทอร์มินอล</string>
+    <string name="home_wireless_adb_description">ตั้งแต่ Android 11 ขึ้นไป สามารถเปิดใช้งานการแก้ไขข้อบกพร่องผ่าน Wi-Fi เพื่อเริ่ม Shizuku ได้โดยตรงผ่านอุปกรณ์ โดยไม่ต้องเชื่อมต่อกับคอมพิวเตอร์ &lt;p>โปรดอ่านคำแนะนำทีละขั้นตอนก่อน</string>
+    <string name="home_wireless_adb_description_pre_11">หาก Android เป็นรุ่นที่เก่ากว่า 11 นั้นจำเป็นต้องเชื่อมต่อกับคอมพิวเตอร์เพื่อเปิดใช้งานการแก้ไขข้อบกพร่องผ่าน Wi-Fi</string>
+    <string name="home_wireless_adb_title">เริ่มผ่านการแก้ไขข้อบกพร่องผ่าน Wi-Fi</string>
+    <string name="home_wireless_adb_view_guide_button">คำแนะนำทีละขั้นตอน</string>
+    <string name="icon_content_description">ไอคอนกล่องโต้ตอบ</string>
+    <string name="item_view_role_description">แท็บ</string>
+    <string name="material_clock_toggle_content_description">เลือก AM หรือ PM</string>
+    <string name="material_hour_selection">เลือกชั่วโมง</string>
+    <string name="material_hour_suffix">%1$s นาฬิกา</string>
+    <string name="material_minute_selection">เลือกนาที</string>
+    <string name="material_minute_suffix">%1$s นาที</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">สลับไปโหมดนาฬิกาเพื่อป้อนเวลา</string>
+    <string name="material_timepicker_hour">ชั่วโมง</string>
+    <string name="material_timepicker_minute">นาที</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">เลือกเวลา</string>
+    <string name="material_timepicker_text_input_mode_description">สลับไปโหมดป้อนข้อความเพื่อป้อนเวลา</string>
+    <string name="mtrl_badge_numberless_content_description">การแจ้งเตือนใหม่</string>
+    <string name="mtrl_chip_close_icon_content_description">นำ %1$s ออก</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">การแจ้งเตือนใหม่มากกว่า %1$d รายการ</string>
+    <string name="mtrl_picker_a11y_next_month">เปลี่ยนไปที่เดือนถัดไป</string>
+    <string name="mtrl_picker_a11y_prev_month">เปลี่ยนไปที่เดือนก่อนหน้า</string>
+    <string name="mtrl_picker_announce_current_selection">การเลือกในปัจจุบัน: %1$s</string>
+    <string name="mtrl_picker_cancel">ยกเลิก</string>
+    <string name="mtrl_picker_confirm">ตกลง</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">เลือกวันที่</string>
+    <string name="mtrl_picker_date_header_unselected">วันที่ที่เลือก</string>
+    <string name="mtrl_picker_day_of_week_column_header">คอลัมน์ของวัน: %1$s</string>
+    <string name="mtrl_picker_invalid_format">รูปแบบไม่ถูกต้อง</string>
+    <string name="mtrl_picker_invalid_format_example">ตัวอย่าง: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">ใช้: %1$s</string>
+    <string name="mtrl_picker_invalid_range">ช่วงไม่ถูกต้อง</string>
+    <string name="mtrl_picker_navigate_to_year_description">ไปที่ปี %1$s</string>
+    <string name="mtrl_picker_out_of_range">วันที่ไม่อยู่ในช่วงที่อนุญาต: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">วันที่เริ่มต้น – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – วันที่สิ้นสุด</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">เลือกช่วง</string>
+    <string name="mtrl_picker_range_header_unselected">วันที่เริ่มต้น – วันที่สิ้นสุด</string>
+    <string name="mtrl_picker_save">บันทึก</string>
+    <string name="mtrl_picker_text_input_date_hint">วันที่</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">วันที่สิ้นสุด</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">วันที่เริ่มต้น</string>
+    <string name="mtrl_picker_text_input_day_abbr">ว</string>
+    <string name="mtrl_picker_text_input_month_abbr">ด</string>
+    <string name="mtrl_picker_text_input_year_abbr">ป</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">สลับไปใช้โหมดป้อนข้อมูลปฏิทิน</string>
+    <string name="mtrl_picker_toggle_to_day_selection">แตะเพื่อสลับไปใช้การเลือกวัน</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">สลับไปใช้โหมดป้อนข้อมูลข้อความ</string>
+    <string name="mtrl_picker_toggle_to_year_selection">แตะเพื่อสลับไปใช้การเลือกปี</string>
+    <string name="mtrl_timepicker_cancel">ยกเลิก</string>
+    <string name="mtrl_timepicker_confirm">ตกลง</string>
+    <string msgid="6573031135582639649" name="not_set">"ไม่ได้ตั้งค่า"</string>
+    <string name="notification_adb_pairing_failed_title">การจับคู่ล้มเหลว</string>
+    <string name="notification_adb_pairing_input_paring_code">ป้อนรหัสการจับคู่</string>
+    <string name="notification_adb_pairing_retry">ลองใหม่</string>
+    <string name="notification_adb_pairing_searching_for_service_title">กำลังค้นหาบริการการจับคู่</string>
+    <string name="notification_adb_pairing_service_found_title">พบบริการการจับคู่</string>
+    <string name="notification_adb_pairing_stop_searching">หยุดค้นหา</string>
+    <string name="notification_adb_pairing_succeed_text">สามารถเริ่มบริการ Shizuku ได้ทันที</string>
+    <string name="notification_adb_pairing_succeed_title">การจับคู่สำเร็จ</string>
+    <string name="notification_adb_pairing_working_title">กำลังจับคู่</string>
+    <string name="notification_channel_adb_pairing">การจับคู่การแก้ไขข้อบกพร่องผ่าน Wi-Fi</string>
+    <string name="notification_channel_service_status">สถานะการเริ่มบริการ</string>
+    <string name="notification_service_start_failed">ล้มเหลวในการเริ่มบริการ Shizuku</string>
+    <string name="notification_service_start_no_root">ล้มเหลวในการขอการอนุญาตรูท</string>
+    <string name="notification_service_starting">บริการ Shizuku กำลังเริ่มต้น…</string>
+    <string name="notification_settings">ตัวเลือกการแจ้งเตือน</string>
+    <string name="notification_working">กำลังทำงาน…</string>
+    <string name="paring_code_is_wrong">รหัสการจับคู่ไม่ถูกต้อง</string>
+    <string name="password_toggle_content_description">แสดงรหัสผ่าน</string>
+    <string name="permission_description">อนุญาตให้แอปใช้งาน Shizuku</string>
+    <string name="permission_label">เข้าถึง Shizuku</string>
+    <string name="permission_warning_template">อนุญาต <b>%1$s</b> ให้ %2$s ไหม\?</string>
+    <string msgid="6685851473431805375" name="preference_copied">"คัดลอก \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" ไปยังคลิปบอร์ดแล้ว"</string>
+    <string name="rish_description">ด้วย %1$s ในแอปเทอร์มินอลใด ๆ คุณจะสามารถเชื่อมต่อและดำเนินการกับ shell ที่รันโดย Shizuku &lt;p>รายละเอียดอื่น ๆ ในการใช้ %1$s แตะเพื่อดูเอกสาร</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"ค้นหา"</string>
+    <string name="settings_black_night_theme">ธีมมืดมิด</string>
+    <string name="settings_black_night_theme_summary">ใช้ธีมสีดำสนิทหากธีมมืดถูกเปิดอยู่</string>
+    <string name="settings_language">ภาษา</string>
+    <string name="settings_start_on_boot">เริ่มเมื่อเปิดเครื่อง (รูท)</string>
+    <string name="settings_start_on_boot_summary">สำหรับอุปกรณ์ที่รูทแล้ว Shizuku จะสามารถเริ่มได้โดยอัตโนมัติเมื่อเปิดเครื่อง</string>
+    <string name="settings_startup">เมื่อเริ่มต้น</string>
+    <string name="settings_title">การตั้งค่า</string>
+    <string name="settings_translation">มีส่วนร่วมในการแปล</string>
+    <string name="settings_translation_contributors">ผู้มีส่วนร่วมในการแปลภาษา</string>
+    <string name="settings_translation_summary">ช่วยเราแปล %s เป็นภาษาของคุณ</string>
+    <string name="settings_use_system_color">ใช้สีของธีมระบบ</string>
+    <string name="settings_user_interface">ลักษณะ</string>
+    <string name="start_with_root_failed">ไม่สามารถเริ่มบริการเนื่องจากไม่ได้รับการอนุญาตรูทหรืออุปกรณ์ไม่ได้ถูกรูท</string>
+    <string name="starter">ตัวเริ่ม</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g> <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="terminal_export_files">ส่งออกไฟล์</string>
+    <string name="terminal_tutorial_1">ก่อนอื่น ส่งออกไฟล์ไปยังที่ใดก็ได้ จะมีอยู่สองไฟล์ %1$s และ %2$s</string>
+    <string name="terminal_tutorial_1_description">หากมีไฟล์ที่มีชื่อเดียวกันในโฟลเดอร์ที่เลือก ไฟล์เหล่านั้นจะถูกลบออก
+\n
+\nใช้ฟังก์ชันการส่งออก SAF (Storage Access Framework) มีรายงานว่า MIUI ทำลายฟังก์ชันของ SAF หากคุณใช้ MIUI คุณอาจจะต้องแตกไฟล์จาก apk ของ Shizuku หรือดาวน์โหลดจาก GitHub</string>
+    <string name="terminal_tutorial_2">จากนั้น ใช้ตัวแก้ไขไฟล์เปิดและแก้ไข %1$s</string>
+    <string name="terminal_tutorial_2_description">ยกตัวอย่างเช่น ถ้าคุณต้องการใช้ Shizuku ใน %1$s คุณจะต้องแทนที่ %2$s ด้วย %3$s (%4$s คือชื่อแพ็กเกจของ %1$s)</string>
+    <string name="terminal_tutorial_3">สุดท้าย ย้ายไฟล์ไปสักที่ที่แอปเทอร์มินอลของคุณสามารถเข้าถึงได้ ทีนี้คุณก็จะสามารถใช้ %1$s เพื่อสั่งคำสั่งผ่าน Shizuku</string>
+    <string name="terminal_tutorial_3_description">แนะนำนิดหน่อย: ให้การอนุญาตดำเนิดการแก่ %1$s และเพิ่มเข้าไปใน %2$s ก็จะสามารถใช้ %1$s ได้โดยตรง</string>
+    <string name="toast_copied_to_clipboard">%s
+\nได้ถูกคัดลอกไปยังคลิปบอร์ด</string>
+    <string name="toast_copied_to_clipboard_with_text"><b>%s</b> ได้ถูกคัดลอกไปยังคลิปบอร์ด</string>
+    <string name="translation_contributors">altinat</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"ปิด"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"เปิด"</string>
+</resources>

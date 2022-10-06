@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/api/aidl" />
+            <option value="$PROJECT_DIR$/api/api" />
+            <option value="$PROJECT_DIR$/api/hidden-api-stub" />
+            <option value="$PROJECT_DIR$/api/provider" />
+            <option value="$PROJECT_DIR$/api/rish" />
+            <option value="$PROJECT_DIR$/api/server-shared" />
+            <option value="$PROJECT_DIR$/api/shared" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/manager" />
+            <option value="$PROJECT_DIR$/server" />
+            <option value="$PROJECT_DIR$/shell" />
+            <option value="$PROJECT_DIR$/starter" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

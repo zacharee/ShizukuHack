@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/home_server_status.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/home_server_status.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/about_dialog.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/about_dialog.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/shell_dialog.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/shell_dialog.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/app_list_item.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/app_list_item.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/home_terminal.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/home_terminal.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/apps_activity.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/apps_activity.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/adb_pair_dialog.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/adb_pair_dialog.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/home_extra_step_required.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/home_extra_step_required.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/confirmation_dialog.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/confirmation_dialog.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/home_start_adb.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/home_start_adb.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/home_item_container.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/home_item_container.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/home_start_root.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/home_start_root.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/terminal_tutorial_activity.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/terminal_tutorial_activity.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/app_list_empty.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/app_list_empty.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/home_start_wireless_adb.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/home_start_wireless_adb.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/home_manage_apps_item.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/home_manage_apps_item.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/home_activity.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/home_activity.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/adb_dialog.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/adb_dialog.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/starter_activity.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/starter_activity.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/adb_pairing_tutorial_activity.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/adb_pairing_tutorial_activity.xml"
+    },
+    {
+        "merged": "moe.shizuku.manager-mergeDebugResources-62:/layout/home_learn_more.xml",
+        "source": "moe.shizuku.manager-main-65:/layout/home_learn_more.xml"
+    }
+]

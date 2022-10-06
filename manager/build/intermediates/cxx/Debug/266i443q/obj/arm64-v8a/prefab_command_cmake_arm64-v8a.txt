@@ -1,0 +1,20 @@
+Executable : null
+arguments : 
+--build-system
+cmake
+--platform
+android
+--abi
+arm64-v8a
+--os-version
+23
+--stl
+none
+--ndk-version
+21
+--output
+E:\StudioProjects\Shizuku\manager\.cxx\Debug\266i443q\prefab\arm64-v8a\prefab-configure
+C:\Users\Zacha\.gradle\caches\transforms-3\5434616ce51c8c06ce885af533242dce\transformed\cxx-1.2.0\prefab
+C:\Users\Zacha\.gradle\caches\transforms-3\d6b532aeaa847fb3bc32d3750d6ee4d3\transformed\boringssl-2.1\prefab
+jvmArgs : 
+

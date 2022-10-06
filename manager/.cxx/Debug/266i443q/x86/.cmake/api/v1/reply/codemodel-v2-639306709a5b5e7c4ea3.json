@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "shizuku",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "adb::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-adb-Debug-9da34054fd44be272d14.json",
+					"name" : "adb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libshizuku.so::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libshizuku.so-Debug-20e71155632269e52d2b.json",
+					"name" : "libshizuku.so",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mstring::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mstring-Debug-1a007236487d88e12362.json",
+					"name" : "mstring",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/StudioProjects/Shizuku/manager/.cxx/Debug/266i443q/x86",
+		"source" : "E:/StudioProjects/Shizuku/manager/src/main/jni"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

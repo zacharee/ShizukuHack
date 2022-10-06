@@ -1,0 +1,5 @@
+E:/StudioProjects/Shizuku/manager/.cxx/Debug/266i443q/x86/CMakeFiles/mstring.dir
+E:/StudioProjects/Shizuku/manager/.cxx/Debug/266i443q/x86/CMakeFiles/libshizuku.so.dir
+E:/StudioProjects/Shizuku/manager/.cxx/Debug/266i443q/x86/CMakeFiles/adb.dir
+E:/StudioProjects/Shizuku/manager/.cxx/Debug/266i443q/x86/CMakeFiles/edit_cache.dir
+E:/StudioProjects/Shizuku/manager/.cxx/Debug/266i443q/x86/CMakeFiles/rebuild_cache.dir
