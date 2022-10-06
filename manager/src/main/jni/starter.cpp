@@ -10,11 +10,16 @@
 #include <cerrno>
 #include <string_view>
 #include <termios.h>
+#include <experimental/string>
+#include <sys/wait.h>
+#include <asm-generic/fcntl.h>
+#include <fstream>
 #include "android.h"
 #include "misc.h"
 #include "selinux.h"
 #include "cgroup.h"
 #include "logging.h"
+#include <fcntl.h>
 
 #ifdef DEBUG
 #define JAVA_DEBUGGABLE
@@ -30,7 +35,7 @@
 #define EXIT_FATAL_KILL 9
 #define EXIT_FATAL_BINDER_BLOCKED_BY_SELINUX 10
 
-#define PACKAGE_NAME "moe.shizuku.privileged.api"
+#define PACKAGE_NAME "moe.shizuku.privileged.api.debug"
 #define SERVER_NAME "shizuku_server"
 #define SERVER_CLASS_PATH "rikka.shizuku.server.ShizukuService"
 
@@ -41,7 +46,7 @@
 #elif defined(__x86_64__)
 #define ABI "x86_64"
 #elif defined(__aarch64__)
-#define ABI "arm64-v8a"
+#define ABI "arm64"
 #endif
 
 static void run_server(const char *dex_path, const char *main_class, const char *process_name) {
@@ -55,13 +60,13 @@ static void run_server(const char *dex_path, const char *main_class, const char 
     size_t v_size = 0; \
     uintptr_t v_current = 0;
 #define ARG_PUSH(v, arg) v_size += sizeof(char *); \
-if (v == nullptr) { \
-    v = (char **) malloc(v_size); \
+if ((v) == nullptr) { \
+    (v) = (char **) malloc(v_size); \
 } else { \
-    v = (char **) realloc(v, v_size);\
+    (v) = (char **) realloc(v, v_size);\
 } \
-v_current = (uintptr_t) v + v_size - sizeof(char *); \
-*((char **) v_current) = arg ? strdup(arg) : nullptr;
+v_current = (uintptr_t) (v) + v_size - sizeof(char *); \
+*((char **) v_current) = (arg) ? strdup(arg) : nullptr;
 
 #define ARG_END(v) ARG_PUSH(v, nullptr)
 
@@ -92,7 +97,10 @@ v_current = (uintptr_t) v + v_size - sizeof(char *); \
 #endif
 
     char lib_path[PATH_MAX]{0};
-    snprintf(lib_path, PATH_MAX, "%s!/lib/%s", dex_path, ABI);
+
+    std::string path_ex = dex_path;
+
+    snprintf(lib_path, PATH_MAX, "%s/lib/%s", path_ex.substr(0, path_ex.length() - 9).c_str(), ABI);
 
     ARG(argv)
     ARG_PUSH(argv, "/system/bin/app_process")
@@ -175,8 +183,10 @@ int starter_main(int argc, char *argv[]) {
         }
     }
 
+    LOGE("%i", getuid());
+
     int uid = getuid();
-    if (uid != 0 && uid != 2000) {
+    if (uid != 0 && uid != 2000 && uid != 1000) {
         perrorf("fatal: run Shizuku from non root nor adb user (uid=%d).\n", uid);
         exit(EXIT_FATAL_UID);
     }
@@ -222,10 +232,12 @@ int starter_main(int argc, char *argv[]) {
         se::setfilecon("/data/local/tmp/shizuku", "u:object_r:shell_data_file:s0");
     }
 
+    LOGE("starter begin");
     printf("info: starter begin\n");
     fflush(stdout);
 
     // kill old server
+    LOGE("killing old process");
     printf("info: killing old process...\n");
     fflush(stdout);
 
@@ -272,6 +284,7 @@ int starter_main(int argc, char *argv[]) {
         exit(EXIT_FATAL_PM_PATH);
     }
 
+    LOGE("got apk path %s", apk_path);
     printf("info: apk path is %s\n", apk_path);
     if (access(apk_path, R_OK) != 0) {
         perrorf("fatal: can't access manager %s\n", apk_path);
@@ -289,18 +302,81 @@ using main_func = int (*)(int, char *[]);
 
 static main_func applet_main[] = {starter_main, nullptr};
 
+static int fork_daemon(int returnParent) {
+    pid_t child = fork();
+    if (child == 0) { // 1st child
+        close(STDIN_FILENO);
+        close(STDOUT_FILENO);
+        close(STDERR_FILENO);
+
+        int devNull = open("/dev/null", O_RDWR);
+        dup2(devNull, STDIN_FILENO);
+        dup2(devNull, STDOUT_FILENO);
+        dup2(devNull, STDERR_FILENO);
+        close(devNull);
+
+        setsid();
+        pid_t child2 = fork();
+        if (child2 == 0) { // 2nd child
+            return 0; // return execution to caller
+        } else if (child2 > 0) { // 1st child, fork ok
+            exit(EXIT_SUCCESS);
+        } else if (child2 < 0) { // 1st child, fork fail
+            LOGE("2nd fork failed (%d)", errno);
+            exit(EXIT_FAILURE);
+        }
+    }
+
+    // parent
+    if (child < 0) {
+        LOGE("1st fork failed (%d)", errno);
+        return -1; // error on 1st fork
+    }
+    while (true) {
+        int status;
+        pid_t waited = waitpid(child, &status, 0);
+        if ((waited == child) && WIFEXITED(status)) {
+            break;
+        }
+    }
+    if (!returnParent) exit(EXIT_SUCCESS);
+    return 1; // success parent
+}
+
+int sleep_ms(int ms) {
+    struct timespec ts;
+    ts.tv_sec = ms / 1000;
+    ts.tv_nsec = (ms % 1000) * 1000000;
+    if ((nanosleep(&ts,&ts) == -1) && (errno == EINTR)) {
+        int ret = (ts.tv_sec * 1000) + (ts.tv_nsec / 1000000);
+        if (ret < 1) ret = 1;
+        return ret;
+    }
+    return 0;
+}
+
 int main(int argc, char **argv) {
     std::string_view base = basename(argv[0]);
 
     LOGD("applet %s", base.data());
 
-    constexpr const char *applet_names[] = {"shizuku_starter", nullptr};
+    constexpr const char *applet_names[] = {"shizuku_starter", nullptr, "libshizuku.so"};
 
-    for (int i = 0; applet_names[i]; ++i) {
-        if (base == applet_names[i]) {
-            return (*applet_main[i])(argc, argv);
+//    for (int i = 0; applet_names[i]; ++i) {
+//        if (base == applet_names[i]) {
+//            return (*applet_main[i])(argc, argv);
+//        }
+//    }
+
+    if (fork_daemon(0) == 0) {
+        LOGD("Daemonized");
+        for (int i = 0; i < 16; i++) {
+            starter_main(argc, argv);
+            sleep_ms(16);
         }
     }
+
+    return 1;
 
     return 1;
 }

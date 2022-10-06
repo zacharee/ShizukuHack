@@ -94,7 +94,7 @@ public class ServiceStarter {
         IBinder service = null;
         Context systemContext = ActivityThread.systemMain().getSystemContext();
 
-        DdmHandleAppName.setAppName(name != null ? name : "shizuku_user_service", 0);
+//        DdmHandleAppName.setAppName(name != null ? name : "shizuku_user_service", 0);
 
         try {
             UserHandle userHandle = Refine.unsafeCast(

@@ -19,20 +19,20 @@
         android:required="false" />
 
     <permission-group
-        android:name="moe.shizuku.manager.permission-group.API"
+        android:name="moe.shizuku.manager.permission-group.debug.API"
         android:description="@string/permission_group_description"
         android:icon="@drawable/ic_system_icon"
         android:label="@string/permission_group_label" />
 
     <permission
-        android:name="moe.shizuku.manager.permission.MANAGER"
+        android:name="moe.shizuku.manager.permission.debug.MANAGER"
         android:protectionLevel="signature" />
     <permission
-        android:name="moe.shizuku.manager.permission.API_V23"
+        android:name="moe.shizuku.manager.permission.debug.API_V23"
         android:description="@string/permission_description"
         android:icon="@drawable/ic_system_icon"
         android:label="@string/permission_label"
-        android:permissionGroup="moe.shizuku.manager.permission-group.API"
+        android:permissionGroup="moe.shizuku.manager.permission-group.debug.API"
         android:protectionLevel="dangerous" />
 
     <application
@@ -42,7 +42,7 @@
         android:banner="@drawable/ic_launcher"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:directBootAware="true"
-        android:extractNativeLibs="false"
+        android:extractNativeLibs="true"
         android:fullBackupContent="@xml/backup_descriptor"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"

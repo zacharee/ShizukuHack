@@ -10,7 +10,7 @@ plugins {
 
 android {
     defaultConfig {
-        applicationId "moe.shizuku.privileged.api"
+        applicationId "moe.shizuku.privileged.api.debug"
         versionCode rootProject.ext.versionCode
         versionName rootProject.ext.versionName
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"

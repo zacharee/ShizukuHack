@@ -31,11 +31,20 @@ find_package(cxx REQUIRED CONFIG)
 add_executable(libshizuku.so
         starter.cpp misc.cpp selinux.cpp cgroup.cpp android.cpp)
 
+add_library(mstring SHARED
+        mstring.cpp)
+
 target_link_libraries(libshizuku.so ${log-lib} cxx::cxx)
+target_link_libraries(mstring ${log-lib} cxx::cxx)
 
 if (NOT CMAKE_BUILD_TYPE STREQUAL "Debug")
     add_custom_command(TARGET libshizuku.so POST_BUILD
             COMMAND ${CMAKE_STRIP} --remove-section=.comment "${CMAKE_LIBRARY_OUTPUT_DIRECTORY}/libshizuku.so")
+endif ()
+
+if (NOT CMAKE_BUILD_TYPE STREQUAL "Debug")
+    add_custom_command(TARGET mstring POST_BUILD
+            COMMAND ${CMAKE_STRIP} --remove-section=.comment "${CMAKE_LIBRARY_OUTPUT_DIRECTORY}/libmstring.so")
 endif ()
 
 add_library(adb SHARED

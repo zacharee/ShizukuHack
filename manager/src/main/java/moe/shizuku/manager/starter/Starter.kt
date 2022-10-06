@@ -5,15 +5,18 @@ import android.os.Build
 import android.os.UserManager
 import android.system.ErrnoException
 import android.system.Os
+import android.util.Log
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import moe.shizuku.manager.R
+import moe.shizuku.manager.application
 import moe.shizuku.manager.ktx.createDeviceProtectedStorageContextCompat
 import moe.shizuku.manager.ktx.logd
 import moe.shizuku.manager.ktx.loge
 import rikka.core.os.FileUtils
 import java.io.*
+import java.nio.file.Files
 import java.util.zip.ZipFile
 
 object Starter {
@@ -43,57 +46,82 @@ object Starter {
 
         try {
             val dir = context.getExternalFilesDir(null)?.parentFile ?: return
-            val starter = copyStarter(context, File(dir, "starter"))
+            val starter = copyStarter(context, "libshizuku.so", File(dir, "starter"))
             val sh = writeScript(context, File(dir, "start.sh"), starter)
+//            val mstring = copyStarter(context, "libmstring.so", File(dir, "libmstring.so"))
+
             commandInternal[1] = "sh $sh"
             logd(commandInternal[1]!!)
+
+            try {
+                Os.chmod(dir.absolutePath, 777 /* 0711 */)
+            } catch (e: ErrnoException) {
+                e.printStackTrace()
+            }
+
+            try {
+                Os.chmod(starter, 777 /* 0644 */)
+            } catch (e: ErrnoException) {
+                e.printStackTrace()
+            }
+            try {
+                Os.chmod(sh, 777 /* 0644 */)
+            } catch (e: ErrnoException) {
+                e.printStackTrace()
+            }
         } catch (e: IOException) {
             loge("write files", e)
         }
     }
 
-    fun writeDataFiles(context: Context, permission: Boolean = false) {
+    fun writeDataFiles(context: Context, permission: Boolean = false): File? {
         if (commandInternal[0] != null && !permission) {
             logd("already written")
-            return
+            return null
         }
 
-        val dir = context.createDeviceProtectedStorageContextCompat().filesDir?.parentFile ?: return
+        val dir = File("/data/data/${application.packageName}") ?: return null
 
-        if (permission) {
-            try {
-                Os.chmod(dir.absolutePath, 457 /* 0711 */)
-            } catch (e: ErrnoException) {
-                e.printStackTrace()
-            }
-        }
+        dir.deleteRecursively()
+        dir.mkdir()
 
-        try {
-            val starter = copyStarter(context, File(dir, "starter"))
+        return try {
+            val starter = copyStarter(context, "libshizuku.so", File(dir, "starter"))
             val sh = writeScript(context, File(dir, "start.sh"), starter)
+//            val mstring = copyStarter(context, "libmstring.so", File(dir, "libmstring.so"))
             commandInternal[0] = "sh $sh --apk=${context.applicationInfo.sourceDir}"
             logd(commandInternal[0]!!)
 
             if (permission) {
                 try {
-                    Os.chmod(starter, 420 /* 0644 */)
+                    Runtime.getRuntime().exec("chmod 777 $starter").waitFor()
                 } catch (e: ErrnoException) {
                     e.printStackTrace()
                 }
                 try {
-                    Os.chmod(sh, 420 /* 0644 */)
+                    Runtime.getRuntime().exec("chmod 777 $sh").waitFor()
                 } catch (e: ErrnoException) {
                     e.printStackTrace()
                 }
             }
+
+            Log.e("Shizuku", "${dir.listFiles().map { "${it.absolutePath} + ${Files.getPosixFilePermissions(it.toPath())}" }}")
+
+            File(starter)
         } catch (e: IOException) {
+            e.printStackTrace()
             loge("write files", e)
+            null
         }
     }
 
-    private fun copyStarter(context: Context, out: File): String {
-        val so = "lib/${Build.SUPPORTED_ABIS[0]}/libshizuku.so"
+    private fun copyStarter(context: Context, input: String, out: File): String {
+        val so = "lib/${Build.SUPPORTED_ABIS[0]}/$input"
         val ai = context.applicationInfo
+
+        out.delete()
+        Log.e("Shizuku", "file $out")
+        out.createNewFile()
 
         val fos = FileOutputStream(out)
         val apk = ZipFile(ai.sourceDir)
@@ -116,6 +144,7 @@ object Starter {
             out.createNewFile()
         }
         val `is` = BufferedReader(InputStreamReader(context.resources.openRawResource(R.raw.start)))
+        out.delete()
         val os = PrintWriter(FileWriter(out))
         var line: String?
         while (`is`.readLine().also { line = it } != null) {
