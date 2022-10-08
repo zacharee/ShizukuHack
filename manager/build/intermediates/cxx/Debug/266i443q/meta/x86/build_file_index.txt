@@ -1,1 +1,0 @@
-E:\StudioProjects\Shizuku\manager\src\main\jni\CMakeLists.txt

@@ -1,3 +1,0 @@
--- Configuring done
--- Generating done
--- Build files have been written to: E:/StudioProjects/Shizuku/manager/.cxx/Debug/266i443q/arm64-v8a
