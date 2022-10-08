@@ -1,2 +1,0 @@
-ninja: Entering directory `E:\StudioProjects\Shizuku\manager\.cxx\Debug\266i443q\arm64-v8a'
-ninja: no work to do.

@@ -39,10 +39,8 @@ class RequestPermissionActivity : AppActivity() {
     }
 
     private fun checkSelfPermission(): Boolean {
-        return true
-
         val permission = Shizuku.checkRemotePermission("android.permission.GRANT_RUNTIME_PERMISSIONS") == PackageManager.PERMISSION_GRANTED
-        if (permission) return true
+        if (permission || Shizuku.getUid() == 1000) return true
 
         val icon = getDrawable(R.drawable.ic_system_icon)
         icon?.setTint(theme.resolveColor(android.R.attr.colorAccent))

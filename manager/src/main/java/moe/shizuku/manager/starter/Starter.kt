@@ -48,7 +48,6 @@ object Starter {
             val dir = context.getExternalFilesDir(null)?.parentFile ?: return
             val starter = copyStarter(context, "libshizuku.so", File(dir, "starter"))
             val sh = writeScript(context, File(dir, "start.sh"), starter)
-//            val mstring = copyStarter(context, "libmstring.so", File(dir, "libmstring.so"))
 
             commandInternal[1] = "sh $sh"
             logd(commandInternal[1]!!)
@@ -88,7 +87,6 @@ object Starter {
         return try {
             val starter = copyStarter(context, "libshizuku.so", File(dir, "starter"))
             val sh = writeScript(context, File(dir, "start.sh"), starter)
-//            val mstring = copyStarter(context, "libmstring.so", File(dir, "libmstring.so"))
             commandInternal[0] = "sh $sh --apk=${context.applicationInfo.sourceDir}"
             logd(commandInternal[0]!!)
 
