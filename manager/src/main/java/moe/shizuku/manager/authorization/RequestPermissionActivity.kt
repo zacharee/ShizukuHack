@@ -39,6 +39,8 @@ class RequestPermissionActivity : AppActivity() {
     }
 
     private fun checkSelfPermission(): Boolean {
+        return true
+
         val permission = Shizuku.checkRemotePermission("android.permission.GRANT_RUNTIME_PERMISSIONS") == PackageManager.PERMISSION_GRANTED
         if (permission) return true
 

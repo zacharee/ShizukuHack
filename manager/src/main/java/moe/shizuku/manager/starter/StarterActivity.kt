@@ -1,5 +1,6 @@
 package moe.shizuku.manager.starter
 
+import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
@@ -9,6 +10,7 @@ import androidx.lifecycle.MutableLiveData
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import moe.shizuku.manager.AppConstants.EXTRA
 import moe.shizuku.manager.BuildConfig
@@ -154,13 +156,13 @@ private class ViewModel(context: Context, root: Boolean, host: String?, port: In
 //            }
 
             val starter = Starter.writeDataFiles(application, true) ?: run {
-                sb.append("Unable to write files")
+                sb.appendLine("Unable to write files")
                 postResult()
                 return@launch
             }
             postResult()
 
-            sb.append("Copying out native lib")
+            sb.appendLine("Copying out native lib")
             postResult()
 
 //            File("${application.applicationInfo.nativeLibraryDir}/libmstring.so").copyTo(
@@ -169,19 +171,25 @@ private class ViewModel(context: Context, root: Boolean, host: String?, port: In
 
             postResult()
 
-            sb.append("Sending data to TTS ${application.applicationInfo.nativeLibraryDir}/libmstring.so")
+            sb.appendLine("Sending data to TTS ${application.applicationInfo.nativeLibraryDir}/libmstring.so")
             postResult()
+
+            val serviceIntent = Intent()
+            serviceIntent.component = ComponentName("com.samsung.SMT", "com.samsung.SMT.SamsungTTSService")
+            application.startService(serviceIntent)
+
+            delay(3000)
 
             val intent = Intent("com.samsung.SMT.ACTION_INSTALL_FINISHED")
             intent.putExtra("BROADCAST_CURRENT_LANGUAGE_INFO", ArrayList<CharSequence>())
-            intent.putExtra("SMT_ENGINE_VERSION", 361904060)
+            intent.putExtra("SMT_ENGINE_VERSION", 361904052)
             intent.putExtra("SMT_ENGINE_PATH", "${application.applicationInfo.nativeLibraryDir}/libmstring.so")
             application.sendOrderedBroadcast(intent, null)
 
-            sb.append("Sent data")
+            sb.appendLine("Sent data")
             postResult()
 
-            sb.append("info: shizuku_starter exit with 0")
+            sb.appendLine("info: shizuku_starter exit with 0")
             postResult()
 
 //            Shell.su(Starter.dataCommand).to(object : CallbackList<String?>() {

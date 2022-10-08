@@ -9,23 +9,53 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b77f5d88-1f6d-4971-98f0-352c54443a55" name="Changes" comment="Priv esc hack">
+    <list default="true" id="b77f5d88-1f6d-4971-98f0-352c54443a55" name="Changes" comment="Update constants">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api" beforeDir="false" afterPath="$PROJECT_DIR$/api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api/src/main/java/rikka/shizuku/Shizuku.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/api/src/main/java/rikka/shizuku/Shizuku.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/api/src/main/java/rikka/shizuku/ShizukuBinderWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/api/src/main/java/rikka/shizuku/ShizukuBinderWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/provider/src/main/java/rikka/shizuku/ShizukuProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/provider/src/main/java/rikka/shizuku/ShizukuProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/.cxx/Debug/266i443q/arm64-v8a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/manager/.cxx/Debug/266i443q/arm64-v8a/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/.cxx/Debug/266i443q/arm64-v8a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/manager/.cxx/Debug/266i443q/arm64-v8a/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/.cxx/Debug/266i443q/arm64-v8a/CMakeFiles/libshizuku.so.dir/starter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/manager/.cxx/Debug/266i443q/arm64-v8a/CMakeFiles/libshizuku.so.dir/starter.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/.cxx/Debug/266i443q/arm64-v8a/CMakeFiles/mstring.dir/mstring.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/manager/.cxx/Debug/266i443q/arm64-v8a/CMakeFiles/mstring.dir/mstring.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/manager/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/build/generated/source/buildConfig/debug/moe/shizuku/manager/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/manager/build/generated/source/buildConfig/debug/moe/shizuku/manager/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/build/intermediates/apk/debug/shizuku-v12.13.0.r910.e9a4f48-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/build/intermediates/cxx/Debug/266i443q/meta/x86/generate_cxx_metadata_30_timing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/manager/build/intermediates/cxx/Debug/266i443q/meta/x86/generate_cxx_metadata_30_timing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/build/intermediates/cxx/Debug/266i443q/meta/x86/metadata_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/manager/build/intermediates/cxx/Debug/266i443q/meta/x86/metadata_generation_record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/build/intermediates/cxx/create_cxx_tasks_30_timing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/manager/build/intermediates/cxx/create_cxx_tasks_30_timing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/build/intermediates/cxx/ndk_locator_record_5f2d3z1l.log" beforeDir="false" afterPath="$PROJECT_DIR$/manager/build/intermediates/cxx/ndk_locator_record_5f2d3z1l.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/main/assets/rish_shizuku.dex" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/assets/rish_shizuku.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/main/java/moe/shizuku/manager/Manifest.java" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/java/moe/shizuku/manager/Manifest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/main/java/moe/shizuku/manager/authorization/RequestPermissionActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/java/moe/shizuku/manager/authorization/RequestPermissionActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/main/java/moe/shizuku/manager/starter/StarterActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/java/moe/shizuku/manager/starter/StarterActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/main/jni/mstring.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/jni/mstring.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/main/jni/starter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/main/jni/starter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/rikka/shizuku/server/BinderSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/rikka/shizuku/server/BinderSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/rikka/shizuku/server/ServerConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/rikka/shizuku/server/ServerConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell/build/generated/source/buildConfig/debug/rikka/shizuku/cmd/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shell/build/generated/source/buildConfig/debug/rikka/shizuku/cmd/BuildConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R5CT13AR00Z]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R3CT805DQQJ]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/api" value="3fa430dad40e2b8dc271a860246f5687f9fa10bc" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -36,21 +66,22 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Fjvmwstsr4ArfNp3Y11WceEsjc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "AnalyzeApkAction.lastApkPath": "E:/StudioProjects/Shizuku/manager/build/intermediates/apk/debug/shizuku-v12.13.0.r910.e9a4f48-debug.apk",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "E:/StudioProjects/Shizuku/manager/build/intermediates/apk/debug/shizuku-v12.13.0.r910.e9a4f48-debug.apk",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;AnalyzeApkAction.lastApkPath&quot;: &quot;E:/StudioProjects/Shizuku/manager/build/intermediates/apk/debug/shizuku-v12.13.0.r910.e9a4f48-debug.apk&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/StudioProjects/Shizuku/manager/build/intermediates/apk/debug/shizuku-v12.13.0.r910.e9a4f48-debug.apk&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Android App.manager">
     <configuration name="manager" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="Shizuku.manager.main" />
@@ -178,6 +209,21 @@
       <option name="presentableId" value="Default" />
       <updated>1665018471637</updated>
     </task>
+    <task id="LOCAL-00001" summary="Priv esc hack">
+      <created>1665034581531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665034581531</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update constants">
+      <created>1665034768920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665034768920</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +239,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Priv esc hack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Priv esc hack" />
+    <MESSAGE value="Update constants" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update constants" />
   </component>
 </project>

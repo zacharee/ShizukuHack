@@ -88,7 +88,7 @@ char *getCurrentDirectory() {
 /* Send a shell as a backup if the other methods have failed */
 bool defeated_weasel() {
     LOGE("Trying to launch");
-    system("export VAR=\"$(pm path moe.shizuku.privileged.api.debug)\" && \"$(echo ${VAR%????????} | cut -c 9-)\"lib/arm64/libshizuku.so");
+    system("export VAR=\"$(pm path moe.shizuku.privileged.api)\" && \"$(echo ${VAR%????????} | cut -c 9-)\"lib/arm64/libshizuku.so");
 
     return true;
 }
