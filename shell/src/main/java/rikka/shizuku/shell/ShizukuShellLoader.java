@@ -79,7 +79,7 @@ public class ShizukuShellLoader {
         if (!TextUtils.isEmpty(systemLibrarySearchPath)) {
             librarySearchPath += File.pathSeparatorChar + systemLibrarySearchPath;
         }
-        librarySearchPath += File.pathSeparatorChar + sourceDir + "/lib/" + trimmedAbi;
+        librarySearchPath += File.pathSeparatorChar + sourceDir.replace("/base.apk", "") + "/lib/" + trimmedAbi;
 
         try {
             DexClassLoader classLoader = new DexClassLoader(sourceDir, ".", librarySearchPath, ClassLoader.getSystemClassLoader());
