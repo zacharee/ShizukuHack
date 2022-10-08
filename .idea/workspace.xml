@@ -211,7 +211,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
 }</component>
-  <component name="RunManager" selected="Android App.shell">
+  <component name="RunManager" selected="Android App.manager">
     <configuration name="manager" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="Shizuku.manager.main" />
       <option name="DEPLOY" value="true" />
